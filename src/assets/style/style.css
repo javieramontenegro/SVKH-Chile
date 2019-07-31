@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.normal-content {
+	background-color: #ffffff;
+	color: #333333;
+}
+.high-contrast-content {
+	background-color: #333333;
+	color: #ffffff;
+}
+.normal-size {
+	font-size: 20px;
+}
+.bigger-size {
+	font-size: 45px;
+}
