@@ -1,6 +1,6 @@
 export const changeContrast = () => {
 	let normalContrast = document.getElementById("body");
-	if(normalContrast.getAttribute("class") === "normal-content") {
+	if(normalContrast.classList.contains("normal-content")) {
 			normalContrast.classList.remove("normal-content");
 			normalContrast.classList.add("high-contrast-content");
 	}

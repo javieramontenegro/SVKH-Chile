@@ -1,6 +1,6 @@
 import { initRouter } from "./routes.js";
 import { changeContrast } from "./assets/logic/logiccontrast.js"
-//import { biggerSize } from "./assets/logic/logicsize.js"
+import { modifySize, backToNormal } from "./assets/logic/logicsize.js"
 
 const init = () => {
     initRouter()
@@ -13,7 +13,12 @@ contrast.addEventListener('click', () => {
     changeContrast()
 })
 
-/* let size = document.getElementById("size");
-size.addEventListener('click', () => {
-    biggerSize();
-}) */
+let biggerSize = document.getElementById("bigger-size");
+biggerSize.addEventListener('click', () => {
+    modifySize();
+});
+
+let smallerSize = document.getElementById("smaller-size");
+smallerSize.addEventListener('click', () => {
+    backToNormal();
+});
