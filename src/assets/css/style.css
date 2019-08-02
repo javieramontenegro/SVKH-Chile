@@ -1,0 +1,49 @@
+
+  .header{
+    display: flex;
+    justify-content: left;
+    z-index: 0;
+    overflow: hidden;
+    background-color: white;
+    padding: 3rem 5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+    
+    font-size: 2rem;
+
+  }
+  .logo{
+    width: 10rem;
+    
+  }
+  nav{
+    background-color: #152C7B!important;
+    margin-top: 10rem;
+    position: fixed;
+    align-content: flex-end;
+  }
+  .navbar{
+    padding:0rem !important;
+  }
+  .navbar-nav{
+    padding-left: 0rem !important;
+    font-size: 1.2rem !important;
+    color: white !important;
+  }
+  .nav-link{
+    color: white !important;
+  
+  }
+  #root{
+    margin-top: 12rem;
+    background-color: #91c6a3;
+    padding-top: 3rem;
+  }
+ 
+ .nav-link:hover {
+  background-color: black;
+ }
+  
+ 
