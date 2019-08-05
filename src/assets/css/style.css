@@ -4,8 +4,8 @@
     justify-content: left;
     z-index: 0;
     overflow: hidden;
-    background-color: white;
-    padding: 3rem 5rem;
+    background-color: #152C7B;
+    padding: 8rem 5rem;
     position: fixed;
     width: 100%;
     top: 0;
@@ -16,13 +16,15 @@
   }
   .logo{
     width: 10rem;
+    margin: 1rem;
     
   }
   nav{
-    background-color: #152C7B!important;
-    margin-top: 10rem;
+    background-color: white!important;
+    margin-top: 3rem;
     position: fixed;
     align-content: flex-end;
+    
   }
   .navbar{
     padding:0rem !important;
@@ -32,18 +34,26 @@
     font-size: 1.2rem !important;
     color: white !important;
   }
+  .navbar-collapse{
+    margin-right: 2rem;
+  }
   .nav-link{
-    color: white !important;
+    color: black !important;
   
   }
   #root{
-    margin-top: 12rem;
+    margin-top: 15rem;
     background-color: #91c6a3;
-    padding-top: 3rem;
+    padding-top: 5rem;
   }
  
  .nav-link:hover {
-  background-color: black;
+  text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
  }
-  
- 
+  .nav-item:hover{
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+  }
