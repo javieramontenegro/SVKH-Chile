@@ -2,6 +2,7 @@ import { viewContact } from "./viewcontact.js";
 import { viewAbout } from "./viewabout.js";
 import { viewSpecialists } from "./viewspecialists.js"
 import { viewInfo } from "./viewinfo.js"
+import { viewSintoms } from "./viewsintoms.js"
 
 export const viewHome = () => {
 	document.getElementById('root').innerHTML = `
@@ -26,6 +27,10 @@ export const viewHome = () => {
     document.getElementById('btn-home-to-contact').addEventListener('click', () => {
         viewContact();
         window.location.hash = '#/contacto';
+    })
+    document.getElementById('btn-home-to-sintoms').addEventListener('click', () => {
+        viewSintoms();
+        window.location.hash = '#/sintomas';
     })
 }
 
