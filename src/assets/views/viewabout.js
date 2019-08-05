@@ -3,7 +3,7 @@ import { viewHome } from './viewhome.js'
 export const viewAbout = () => {
 	
 	document.getElementById('root').innerHTML = `
-		<h1>Hola soy el nosotros</h1>
+		<h1>Hola soy el about</h1>
 		<button id="btn-about-to-home">Ir a home</button>
 	`
 
