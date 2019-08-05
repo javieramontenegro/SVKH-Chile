@@ -1,5 +1,63 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+.header{
+    display: flex;
+    justify-content: left;
+    z-index: 0;
+    overflow: hidden;
+    background-color: #152C7B;
+    padding: 8rem 5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+    
+    font-size: 2rem;
+
+  }
+  .logo{
+    width: 10rem;
+    margin: 1rem;
+    
+  }
+  nav{
+    background-color: white!important;
+    margin-top: 3rem;
+    position: fixed;
+    align-content: flex-end;
+    
+  }
+  .navbar{
+    padding:0rem !important;
+  }
+  .navbar-nav{
+    padding-left: 0rem !important;
+    font-size: 1.2rem !important;
+    color: white !important;
+  }
+  .navbar-collapse{
+    margin-right: 2rem;
+  }
+  .nav-link{
+    color: black !important;
+  
+  }
+  #root{
+    margin-top: 15rem;
+    background-color: #91c6a3;
+    padding-top: 5rem;
+  }
+ 
+ .nav-link:hover {
+  text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+ }
+  .nav-item:hover{
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+  }
 .normal-content {
 	background-color: #ffffff;
 	color: #333333;
@@ -14,6 +72,65 @@
 .bigger-size {
 	font-size: large;
 }
-.biggest-size{
+.biggest-size {
 	font-size: x-large;
+}
+.footer-container {
+	background-color: #152C7B;
+	color: #ffffff;
+	padding: 0;
+	margin: 0;
+	height: 150px;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	vertical-align: 50%;
+}
+.col-logo {
+	text-align: left;
+}
+.rrss-title {
+	margin-bottom: 15px;
+	position: fixed;
+	margin-bottom: 10px;
+}
+.col-rrss {
+	margin-top: 50px;
+}
+.rs-icon {
+	color: #152C7B;
+	background-color: #ffffff;
+	font-size: 20px;
+	border-radius: 50%;
+	padding: 5px;
+}
+.fa-facebook-f{
+	padding-right: 8px;
+	padding-left: 8px; 
+}
+.fa-instagram {
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.col-contact {
+	margin-top: 50px;
+}
+
+.rrss-icons {
+	position: fixed;
+	margin-top: 30px;
+	line-height: 10px;
+}
+.contact-title {
+	float: right;
+	margin-right: 10px;
+	right: 30px;
+}
+.contact-email {
+	position: fixed;
+	right: 30px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+	line-height: 10px;
 }
