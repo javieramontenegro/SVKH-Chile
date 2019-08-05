@@ -5,6 +5,7 @@ import { viewInfo } from "./viewinfo.js"
 
 export const viewHome = () => {
 	document.getElementById('root').innerHTML = `
+
 		<h1>Hola soy el home</h1>
         <button id="btn-home-to-about">Ir a about</button>
         <button id="btn-home-to-info">Ir a info</button>
