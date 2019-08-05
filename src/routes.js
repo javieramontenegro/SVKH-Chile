@@ -5,7 +5,7 @@ import { viewContact } from './assets/views/viewcontact.js';
 import { viewHome } from './assets/views/viewhome.js';
 import { viewInfo } from './assets/views/viewinfo.js';
 import { viewSpecialists } from './assets/views/viewspecialists.js';
-import { viewSintoms } from './assets/views/viewsintoms.js';
+import { viewSymtoms } from './assets/views/viewsymtoms.js';
 
 const changeRoute = (hash) => {
   if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/sintomas' || hash === '' || hash === '#/' || hash === '/#') {
@@ -38,7 +38,7 @@ const showView = (hash) => {
     viewSpecialists();
   }
   else if (router === 'sintomas'){
-    viewSintoms();
+    viewSymtoms();
   }
 
   else {

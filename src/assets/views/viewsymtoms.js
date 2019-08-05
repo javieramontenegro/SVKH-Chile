@@ -1,7 +1,8 @@
 
-export const viewSintoms = () => {
+export const viewSymtoms = () => {
   document.getElementById('root').innerHTML = `
 
+  
     <div class="row">
       
       <div class="col-md-6">
@@ -12,7 +13,7 @@ export const viewSintoms = () => {
             <li> Dolor de cabeza </li>
             <li> Fiebre baja </li>
             <li> Mareos </li>
-            <li> Meningismo </li>
+            <li> Meningismo </li>r
             <li> Náuseas y vómitos </li>
             <li> Pérdida de la audición y trastornos relacionados con el oído interno, disacusia y tinnitus) y vertigo.</p> </li>
           </ul>     
