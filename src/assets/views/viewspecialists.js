@@ -10,8 +10,6 @@ export const viewSpecialists = () => {
 					<h6>
 						<a href="" role="button" id="a-to-home">Home</a>
 						/
-						<span><a>Especialistas</a></span>
-						/
 						<span><a>Lista especialistas</a></span>
 					</h6>
 				</div>

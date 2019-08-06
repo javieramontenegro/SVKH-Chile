@@ -9,8 +9,6 @@ export const viewOftal = () => {
           <h6>
             <a href="#/especialistas" role="button" id="a-to-home">Home</a>
             /
-            <span><a>Especialistas</a></span>
-            /
             <span><a href="#/especialistas" role="button" id="a-to-specialists">Lista especialistas</a></span>
             /
             <span><a>Oftalmólogos</a></span>

@@ -9,9 +9,7 @@ export const viewReuma = () => {
           <h6>
             <a href="" role="button" id="a-to-home">Home</a>
             /
-            <span><a>Especialistas</a></span>
-            /
-            <span><a href="" role="button" id="a-to-specialists">Lista especialistas</a></span>
+            <span><a href="#/especialistas" role="button" id="a-to-specialists">Lista especialistas</a></span>
             /
             <span><a>Reumatólogos</a></span>
           </h6>

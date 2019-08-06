@@ -5,6 +5,7 @@ import { viewContact } from './assets/views/viewcontact.js';
 import { viewHome } from './assets/views/viewhome.js';
 import { viewInfo } from './assets/views/viewinfo.js';
 import { viewSpecialists } from './assets/views/viewspecialists.js';
+import { viewSymtoms } from './assets/views/viewsymtoms.js';
 import { viewOftal } from './assets/views/viewoftal.js'
 import { viewReuma } from './assets/views/viewreuma.js';
 
@@ -44,6 +45,10 @@ const showView = (hash) => {
   else if (router === 'reumatologos'){
     viewReuma();
   }
+  else if (router === 'sintomas'){
+    viewSymtoms();
+  }
+
   else {
     root.innerHTML = `<h1>Error 404</h1>`
   }
