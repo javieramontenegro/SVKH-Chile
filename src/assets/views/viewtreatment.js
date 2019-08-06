@@ -40,6 +40,10 @@ export const viewTreatment = () => {
     <div class="row symptoms">
 
       <div class="col-md-6">
+        <img class="img-fluid" src="./assets/img/medicina.png" alt="personas tomadas de la mano">
+      </div>
+
+      <div class="col-md-6">
         <h2>Inmunomodulador</h2>
         <p>La disminución de los corticoides se hace de forma gradual durante un período de por lo menos 6 meses,
         para evitar la recurrencia y las complicaciones.<br>
@@ -47,28 +51,37 @@ export const viewTreatment = () => {
         Resulta más efectivo y puede reducir el riesgo de que la retina sea afectada.</p>
 
       </div>
-      
-      <div class="col-md-6">
-        <img class="img-fluid" src="./assets/img/tomamano.png" alt="personas tomadas de la mano">
-      </div>
+    
 
     </div>
 
-    <div class="row symptoms">
+    <div class="row">
+ 
+      <div class="col-md-12">
+        <h2>Otros Medicamentos</h2>
+        <p>En pacientes que no responden a los corticoides combinados con los agentes inmunosupresores,
+        se deben considerar los medicamentos anti-TNF y otros medicamentos biológicos como Adalimumab</p>
 
-      <div class="col-md-6">
-        <img class="img-fluid" src="./assets/img/ojo.png" alt="pupila son svk en etapa crónica" border="0">
       </div>
-    
-      <div class="col-md-6">
-        <h2>Etapa Crónica</h2>
-        <p>Estos síntomas generalmente son seguidos en pocas semanas por:</p>
-          <ul>
-            <li> Cataratas.</li>
-            <li> Glaucoma.</li>
-            <li> Neovascularización coroidea.</li>
-            <li> Fibrosis subretiniana en que hay formación de placas de fibrosis después de la inflamación del ojo. </li>
-          </ul>
+        
+    </div>
+    <br>
+    <div class="row">
+ 
+      <div class="col-md-12">
+        <h2>Cirugía</h2>
+        <p>En algunas personas se necesita cirugía para el glaucoma. </p>
+
+      </div>
+        
+    </div>
+
+    <br>
+    <div class="row">
+ 
+      <div class="col-md-12">
+        <h2>Mas Información</h2>
+        <p>Si buscas mayor informacion sobre el sindrome y sus tratamientos, puedes visitar los siguientes links.</p>
 
       </div>
         
