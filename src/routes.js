@@ -10,7 +10,7 @@ import { viewOftal } from './assets/views/viewoftal.js'
 import { viewReuma } from './assets/views/viewreuma.js';
 
 const changeRoute = (hash) => {
-  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/oftalmologos' || hash === '#/reumatologos' || hash === '' || hash === '#/' || hash === '/#') {
+  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/sintomas' || hash === '#/especialistas' || hash === '#/oftalmologos' || hash === '#/reumatologos' || hash === '' || hash === '#/' || hash === '/#') {
     return showView(hash);
   }
   return showView(hash);
@@ -55,10 +55,13 @@ const showView = (hash) => {
 }
 
 export const initRouter = () => {
+  console.log("hola1?")
   window.addEventListener('load', changeRoute(window.location.hash));
 
   if ('onhashchange' in window) {
+    console.log("hola?2")
     window.onhashchange = () => {
+      console.log("hola?3")
       changeRoute(window.location.hash);
     }
   }

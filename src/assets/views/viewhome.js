@@ -1,9 +1,3 @@
-import { viewContact } from "./viewcontact.js";
-import { viewAbout } from "./viewabout.js";
-import { viewSpecialists } from "./viewspecialists.js"
-import { viewInfo } from "./viewinfo.js"
-import { viewSymtoms } from "./viewsymtoms.js"
-
 export const viewHome = () => {
 	document.getElementById('root').innerHTML = `
 
@@ -26,29 +20,5 @@ export const viewHome = () => {
       </div>
     </div>
   </div>
-       
-    
-       
 	`
-    document.getElementById('btn-home-to-about').addEventListener('click', () => {
-        viewAbout();
-        window.location.hash = '#/nosotros';
-    })
-    document.getElementById('btn-home-to-info').addEventListener('click', () => {
-        viewInfo();
-        window.location.hash = '#/info';
-    })
-    document.getElementById('btn-home-to-specialists').addEventListener('click', () => {
-        viewSpecialists();
-        window.location.hash = '#/especialistas';
-    })
-    document.getElementById('btn-home-to-contact').addEventListener('click', () => {
-        viewContact();
-        window.location.hash = '#/contacto';
-    })
-    document.getElementById('btn-home-to-symtoms').addEventListener('click', () => {
-        viewSymtoms();
-        window.location.hash = '#/sintomas';
-    })
 }
-
