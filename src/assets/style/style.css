@@ -1,30 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 .header{
-    display: flex;
-    justify-content: left;
-    z-index: 1;
-    overflow: hidden;
-    background-color: #152C7B;
-    padding: 8rem 5rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    font-size: 2rem;
-
-  }
-  .logo{
-    width: 10rem;
-    margin: 1rem;
-    
-  }
-  nav{
-    background-color: white!important;
-    margin-top: 3rem;
-    position: fixed;
-    align-content: flex-end;
-    z-index: 1;
-  }
+  display: flex;
+  justify-content: left;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #152C7B;
+  padding: 8rem 5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  font-size: 2rem;
+}
+.logo{
+  width: 10rem;
+  margin: 1rem;  
+}
+body {
+  font-family: 'Roboto';
+}
+nav {
+  background-color: white!important;
+  margin-top: 3rem;
+  position: fixed;
+  align-content: flex-end;
+  z-index: 1;
+}
   .navbar{
     padding:0rem !important;
   }
@@ -87,13 +88,13 @@
 	color: #ffffff;
 }
 .normal-size {
-	font-size: medium;
-}
-.bigger-size {
 	font-size: large;
 }
-.biggest-size {
+.bigger-size {
 	font-size: x-large;
+}
+.biggest-size {
+	font-size: xx-large;
 }
 .footer {
 	background-color: #152C7B;
@@ -113,7 +114,14 @@
 .contact-container {
   text-align: right;
 }
-
+.page-title {
+  font-size: 28px;
+  color: #152C7B;
+  margin-bottom: 20px;
+}
+.contact-email {
+  color: #152C7B;
+}
 .rs-icon {
 	color: #152C7B;
 	background-color: #ffffff;
@@ -132,11 +140,29 @@
 .fa-twitter {
   padding: 6px;
 }
-
+.specialists-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.specialists-btn {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 188px;
+  height: 61px;
+  background-color: #152C7B;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.specialists-btn:hover {
+  color: #ffffff;
+  background-color: #0F3461;
+}
 
 
 /* Views */
-
+.route-title {
+  margin-bottom: 20px;
+}
 .about-title {
   margin-top: 2rem;
 }
