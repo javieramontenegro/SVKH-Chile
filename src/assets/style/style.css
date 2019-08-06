@@ -3,15 +3,13 @@
 .header{
     display: flex;
     justify-content: left;
-    z-index: 0;
+    z-index: 1;
     overflow: hidden;
     background-color: #152C7B;
     padding: 8rem 5rem;
     position: fixed;
     width: 100%;
     top: 0;
-    
-    
     font-size: 2rem;
 
   }
@@ -25,7 +23,7 @@
     margin-top: 3rem;
     position: fixed;
     align-content: flex-end;
-    
+    z-index: 1;
   }
   .navbar{
     padding:0rem !important;
@@ -44,8 +42,9 @@
   }
   #root{
     margin-top: 15rem;
-    background-color: #91c6a3;
     padding-top: 5rem;
+    margin-bottom: 5rem;
+    z-index: 0;
   }
  
  .nav-link:hover {
@@ -75,62 +74,60 @@
 .biggest-size {
 	font-size: x-large;
 }
-.footer-container {
+.footer {
 	background-color: #152C7B;
 	color: #ffffff;
-	padding: 0;
-	margin: 0;
-	height: 150px;
-	position: fixed;
-	bottom: 0%;
 	width: 100%;
-	vertical-align: 50%;
 }
-.col-logo {
-	text-align: left;
+
+.footer-container {
+	padding: 0;
+  margin: 0;
+	height: 150px;
 }
-.rrss-title {
-	margin-bottom: 15px;
-	position: fixed;
-	margin-bottom: 10px;
+
+.rrss-container {
+  text-align: center;
 }
-.col-rrss {
-	margin-top: 50px;
+.contact-container {
+  text-align: right;
 }
+
 .rs-icon {
 	color: #152C7B;
 	background-color: #ffffff;
-	font-size: 20px;
-	border-radius: 50%;
-	padding: 5px;
+  font-size: 35px;
+  border-radius: 50%;
 }
-.fa-facebook-f{
-	padding-right: 8px;
-	padding-left: 8px; 
+.icon-container {
+  margin: 5px;
+}
+.fa-facebook-square {
+  padding: 7px 8px 6px 9px;
 }
 .fa-instagram {
-	padding-right: 6px;
-	padding-left: 6px;
+  padding: 6px 8px 7px 8px;
 }
-.col-contact {
-	margin-top: 50px;
+.fa-twitter {
+  padding: 6px;
 }
 
-.rrss-icons {
-	position: fixed;
-	margin-top: 30px;
-	line-height: 10px;
+
+
+/* Views */
+
+.about-title {
+  margin-top: 2rem;
 }
-.contact-title {
-	float: right;
-	margin-right: 10px;
-	right: 30px;
-}
-.contact-email {
-	position: fixed;
-	right: 30px;
-	float: right;
-	margin-top: 30px;
-	margin-right: 10px;
-	line-height: 10px;
+
+@media (max-width: 600px) {
+  .footer-container {
+    height: 300px;
+  }
+  .logo-container {
+    text-align: center;
+  }
+  .contact-container {
+    text-align: center;
+  }
 }
