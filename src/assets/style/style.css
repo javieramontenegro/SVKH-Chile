@@ -10,11 +10,13 @@
     position: fixed;
     width: 100%;
     top: 0;
-    
-    
     font-size: 2rem;
-
   }
+  h1, h2, h3, h4{
+    color: #152C7B
+    
+  }
+
   .logo{
     width: 8rem;
     margin: 1rem;
@@ -26,7 +28,7 @@
     position: fixed;
     align-content: flex-end;
     z-index: 1;
-    border-bottom: 6px solid #152C7B;; 
+    border-bottom: 6px solid #152C7B;
   }
   .navbar{
     padding:0rem !important;
@@ -47,7 +49,6 @@
   
   }
  
- 
   .buttons-special{
    margin-top: 5rem;
     position: fixed;
@@ -59,10 +60,11 @@
   }
  
   #root{
+    z-index: 0;
     margin-top: 12rem;
     position: relative;
     padding-top: 0rem;
-    z-index: 0;
+    margin-bottom: 5rem;
   }
  
  .nav-link:hover {
@@ -75,6 +77,7 @@
     text-decoration-color: blue;
     text-decoration-style: solid;
   }
+
   .home_1{
     width: 90%;
   } 
@@ -98,13 +101,30 @@
     color:black;
     background-color: #D2D2D2;
   } */
-  p{
-    font-size: 1.2rem;
-  }
-  .txt-def{
-    
+
+  .txt-def {
     margin: 3rem;
   }
+
+.accessibility-btn {
+  border-radius: 50%;
+  border: 1px solid red;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 400;
+}
+.small {
+  padding: 2px 6px 2px 8px;
+}
+.big {
+  padding: 2px 3px 2px 5px;
+}
+.contrast {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  padding: 1px 10px 3px 10px;
+}
 .normal-content {
 	background-color: #ffffff;
 	color: #333333;
@@ -122,62 +142,63 @@
 .biggest-size {
 	font-size: x-large;
 }
-.footer-container {
-	background-color: #152C7B;
-	color: #ffffff;
+.footer {
 	padding: 0;
-	margin: 0;
+  margin: 0;
 	height: 150px;
-	position: relative;
-	bottom: 0%;
-	width: 100%;
-	vertical-align: 50%;
 }
-.col-logo {
-	text-align: left;
+
+.footer-container {
+	padding: 0;
+  margin: 0;
+	height: 150px;
 }
-.rrss-title {
-	margin-bottom: 15px;
-	position: fixed;
-	margin-bottom: 10px;
+
+.rrss-container {
+  text-align: center;
 }
-.col-rrss {
-	margin-top: 50px;
+.contact-container {
+  text-align: right;
 }
+
 .rs-icon {
 	color: #152C7B;
 	background-color: #ffffff;
-	font-size: 20px;
-	border-radius: 50%;
-	padding: 5px;
+  font-size: 35px;
+  border-radius: 50%;
 }
-.fa-facebook-f{
-	padding-right: 8px;
-	padding-left: 8px; 
+.icon-container {
+  margin: 5px;
+}
+.fa-facebook-square {
+  padding: 7px 8px 6px 9px;
 }
 .fa-instagram {
-	padding-right: 6px;
-	padding-left: 6px;
+  padding: 6px 8px 7px 8px;
 }
-.col-contact {
-	margin-top: 50px;
+.fa-twitter {
+  padding: 6px;
 }
 
-.rrss-icons {
-	position: fixed;
-	margin-top: 30px;
-	line-height: 10px;
+
+
+/* Views */
+
+.about-title {
+  margin-top: 2rem;
 }
-.contact-title {
-	float: right;
-	margin-right: 10px;
-	right: 30px;
+.symptoms {
+  margin-bottom: 70px;
+	padding: 30px;
 }
-.contact-email {
-	position: fixed;
-	right: 30px;
-	float: right;
-	margin-top: 30px;
-	margin-right: 10px;
-	line-height: 10px;
+@media (max-width: 600px) {
+  .footer-container {
+    height: 300px;
+  }
+  .logo-container {
+    text-align: center;
+  }
+  .contact-container {
+    text-align: center;
+  }
 }
