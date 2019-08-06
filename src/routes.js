@@ -6,9 +6,10 @@ import { viewHome } from './assets/views/viewhome.js';
 import { viewInfo } from './assets/views/viewinfo.js';
 import { viewSpecialists } from './assets/views/viewspecialists.js';
 import { viewSymtoms } from './assets/views/viewsymtoms.js';
+import { viewTreatment } from './assets/views/viewtreatment.js'
 
 const changeRoute = (hash) => {
-  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/sintomas' || hash === '' || hash === '#/' || hash === '/#') {
+  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/sintomas' || hash === '#/info' || hash === '' || hash === '#/' || hash === '/#') {
     return showView(hash);
   }
   return showView(hash);
@@ -39,6 +40,9 @@ const showView = (hash) => {
   }
   else if (router === 'sintomas'){
     viewSymtoms();
+  }
+  else if (router === 'tratamiento'){
+    viewTreatment();
   }
 
   else {
