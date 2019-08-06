@@ -7,9 +7,14 @@ import { viewInfo } from './assets/views/viewinfo.js';
 import { viewSpecialists } from './assets/views/viewspecialists.js';
 import { viewSymtoms } from './assets/views/viewsymtoms.js';
 import { viewTreatment } from './assets/views/viewtreatment.js'
+import { viewOftal } from './assets/views/viewoftal.js'
+import { viewReuma } from './assets/views/viewreuma.js';
+
+
+
 
 const changeRoute = (hash) => {
-  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/sintomas' || hash === '#/info' || hash === '' || hash === '#/' || hash === '/#') {
+  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/oftalmologos' || hash === '#/reumatologos' || hash === '#/sintomas' || hash === '#/tratamiento' || hash === '' || hash === '#/' || hash === '/#') {
     return showView(hash);
   }
   return showView(hash);
@@ -37,6 +42,12 @@ const showView = (hash) => {
   }
   else if (router === 'especialistas'){
     viewSpecialists();
+  }
+  else if (router === 'oftalmologos'){
+    viewOftal();
+  }
+  else if (router === 'reumatologos'){
+    viewReuma();
   }
   else if (router === 'sintomas'){
     viewSymtoms();
