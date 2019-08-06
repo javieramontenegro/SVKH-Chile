@@ -40,6 +40,7 @@
     color: black !important;
   
   }
+
   #root{
     margin-top: 15rem;
     padding-top: 5rem;
@@ -57,6 +58,26 @@
     text-decoration-color: blue;
     text-decoration-style: solid;
   }
+
+.accessibility-btn {
+  border-radius: 50%;
+  border: 1px solid red;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 400;
+}
+.small {
+  padding: 2px 6px 2px 8px;
+}
+.big {
+  padding: 2px 3px 2px 5px;
+}
+.contrast {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  padding: 1px 10px 3px 10px;
+}
 .normal-content {
 	background-color: #ffffff;
 	color: #333333;
