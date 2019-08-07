@@ -193,7 +193,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.specialists-btn {
+.blue-btn {
   margin-top: 15px;
   margin-bottom: 20px;
   width: 188px;
@@ -202,10 +202,14 @@
   color: #ffffff;
   border-radius: 4px;
 }
-.specialists-btn:hover {
+.blue-btn:hover {
   color: #ffffff;
   background-color: #0F3461;
 }
+
+/* .txt-center p{
+  text-align: center;
+} */
 
 
 /* Views */
