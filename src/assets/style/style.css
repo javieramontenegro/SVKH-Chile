@@ -193,7 +193,7 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.specialists-btn {
+.blue-btn {
   margin-top: 15px;
   margin-bottom: 20px;
   width: 188px;
@@ -202,7 +202,7 @@
   color: #ffffff;
   border-radius: 4px;
 }
-.specialists-btn:hover {
+.blue-btn:hover {
   color: #ffffff;
   background-color: #0F3461;
 }
@@ -219,9 +219,16 @@
   margin-bottom: 70px;
 	padding: 30px;
 }
+.table, th, td {
+  border: 1px solid black;
+}
 @media (max-width: 600px) {
+  .footer {
+    background-color: #152C7B;
+  }
   .footer-container {
     height: 300px;
+    background-color: #152C7B;
   }
   .logo-container {
     text-align: center;
