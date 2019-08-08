@@ -7,7 +7,7 @@ export const viewOftal = () => {
       <div class="row route-title">
         <div class="col">
           <h6>
-            <a href="#/especialistas" role="button" id="a-to-home">Home</a>
+            <a href="#/home" role="button" id="a-to-home">Home</a>
             /
             <span><a href="#/especialistas" role="button" id="a-to-specialists">Lista especialistas</a></span>
             /

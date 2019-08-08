@@ -81,11 +81,14 @@ export const viewTreatment = () => {
  
       <div class="col-md-12">
         <h2>Más Información</h2>
-        <p>Si buscas mayor información sobre el síndrome y sus tratamientos, puedes visitar los siguientes links.</p>
+        <p>Si buscas mayor información sobre el síndrome y sus tratamientos, puedes visitar los siguientes <a id="a-to-links" href="#/links" role="button"><b>links</b></a>.</p>
 
       </div>
         
     </div>
   `
-
+  document.getElementById('a-to-links').addEventListener('click', () => {
+    viewLinks();
+    window.location.hash = '#/links'
+  })
 }

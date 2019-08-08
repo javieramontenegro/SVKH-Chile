@@ -7,15 +7,10 @@ export const viewAbout = () => {
 		<div class="row route-title">
 			<div class="col">
 				<h6>
-					<a href="" role="button" id="a-to-home">Home</a>
+					<a href="#/home" role="button" id="a-to-home">Home</a>
 					/
 					<span><a>Quiénes somos</a></span>
 				</h6>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				<h1>Foto</h1>
 			</div>
 		</div>
 		<div class="row">
@@ -25,7 +20,12 @@ export const viewAbout = () => {
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-md-8">
-				<p>Somos Síndrome-Vogt-Koyanagi Harada Chile. Nuestra agrupación iniciada el 2017, busca hacer visible el síndrome en Chile y el mundo. Llevamos 2 años conectándonos con personas que que tienen el síndrome y otros que quieren conocer más sobre esto. Hemos crecido mucho como agrupación gracias a todos sus miembros. La Agrupación comenzó por Cristian Quijada, padre de una paciente, quien al querer conocer más sobre este síndrome empezó a buscar redes para encontrar tramientos y especialistas. Comenzamos como agrupación en Facebook, una comunidad que hasta el día de hoy sigue activa. Ha sido un arduo camino para poder brindar apoyo a otras personas que también tienen el síndrome y dar apoyo y guía a las familias.</p>
+				<p>Somos Síndrome-Vogt-Koyanagi Harada Chile. Nuestra agrupación iniciada el 2017, busca hacer visible el síndrome en Chile y el mundo.</p> 
+				<p>Llevamos 2 años conectándonos con personas que que tienen el síndrome y otros que quieren conocer más sobre esto. Hemos crecido mucho como agrupación gracias a todos sus miembros.</p>
+				<p>Ha sido un arduo camino para poder brindar apoyo a otras personas que también tienen el síndrome, dar apoyo y guiar a las familias.</p>
+			</div>
+			<div class="col-sm-12 col-md-4">
+				<img class="img-fluid" src="./assets/img/about.png" alt="Fotografía grupal de miembros de la organización">
 			</div>
 		</div>
 		<div class="row">

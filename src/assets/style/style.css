@@ -126,9 +126,9 @@ margin-top: 2.6rem;
 text-align: center;
 }
 .accessibility-btn {
+  border: none;
   border-radius: 50%;
-  border: 1px solid red;
-  background-color: #ffffff;
+  background-color: #D2D2D2;
   color: #333333;
   font-size: 20px;
   font-weight: 400;

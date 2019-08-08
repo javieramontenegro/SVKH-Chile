@@ -8,7 +8,7 @@ export const viewSpecialists = () => {
 			<div class="row route-title">
 				<div class="col">
 					<h6>
-						<a href="" role="button" id="a-to-home">Home</a>
+						<a href="#/home" role="button" id="a-to-home">Home</a>
 						/
 						<span><a>Lista especialistas</a></span>
 					</h6>
@@ -16,13 +16,13 @@ export const viewSpecialists = () => {
 			</div>
 			<div class="row">
 				<div class="col-sm-12 col-md-6">
-					<img class="specialists-img" src="https://i.ibb.co/QFJp4WN/Rectangle-2.png" alt="Imagen de oftalmólogo"></img>
+					<img class="specialists-img" src="./assets/img/oftal.png" alt="Imagen de oftalmólogo"></img>
 					<h4 class="specialists-title">Oftalmólogos</h4>
 					<p>Lista de oftalmólogos en Chile</p>
 					<button id="btn-to-oftal" class="btn blue-btn">Ver más</button>
 				</div>
 				<div class="col-sm-12 col-md-6">
-					<img class="specialists-img" src="https://i.ibb.co/Lh2zYY9/Rectangle-2-1.png" alt="Imagen de reumatólogo"></img>
+					<img class="specialists-img" src="./assets/img/reuma.png" alt="Imagen de reumatólogo"></img>
 					<h4 class="specialists-title">Reumatólogos</h4>
 					<p>Lista de reumatólogos en Chile</p>
 					<button id="btn-to-reuma" class="btn blue-btn">Ver más</button>
