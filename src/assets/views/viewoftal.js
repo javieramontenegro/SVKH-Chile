@@ -17,23 +17,45 @@ export const viewOftal = () => {
       </div>
       <div class="row">
         <div class="col">
-          <tbody>
-          <tr>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
+          <table style="width:100%">
             <tr>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-      </tbody>
+              <td>
+                <p>Víctor Velásquez</p>
+              </td>
+              <td>
+                <p>- Hospital Salvador</p>
+                <p>- Consulta Particular, Padre Mariano 10 Of. 501</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Enzo Castiglione</p>
+              </td>
+              <td>
+                <p>- Hospital Clínico U. de Chile</p>
+                <p>- Clínica Oftalmológica 2020 (particular)</p>
+                <p>- Clínica Oftalmológica Pasteur (Fonasa, Isapre)</p>
+                <p>- Clínica Oftalmológica, Pedro de Valdivia.</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Pablo Sabat</p>
+              </td>
+              <td>
+                <p>- Clínica las Condes de Camino el Alba 9500 (particular, algunas Isapres).</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Guillermo Merino</p>
+              </td>
+              <td>
+                <p>- Hospital Salvador</p>
+                <p>- Consulta particular Padre Mariano 10 Of. 501.</p>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>  
