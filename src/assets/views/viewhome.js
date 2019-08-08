@@ -30,27 +30,27 @@ export const viewHome = () => {
   </div>
   <br>
            <div class="row">
-                  <h1>Infórmate sobre el VKH </h1>
+                  <h1 class="normal-color">Infórmate sobre el VKH </h1>
            </div>
         <br>
           
                   <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
                        <img src="./assets/img/home_3.png" class="home_2"alt="home_2" >
-                        <h3> Síntomas</h3>
+                        <h3 class="normal-color"> Síntomas</h3>
                          <p>Conoce los principales síntomas del Síndrome Vogt Koyanagi Harada. </p>
                          <button id="btn-to-symtoms" class="btn blue-btn">Ver más</button>
                     </div> 
                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
                           <img src="./assets/img/home_2.png" class="home_3"alt="ojo" >
-                           <h3>Médicos en Chile</h3>
+                           <h3 class="normal-color">Médicos en Chile</h3>
                             <p>Lista de médicos tratantes en Chile. </p>
                             <button id="btn-to-especialist" class="btn blue-btn">Ver más</button>
                        </div>   
                 
                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
                             <img src="./assets/img/home_4.png" class="home_4"alt="tratamiento" >
-                             <h3>Tratamientos</h3>
+                             <h3 class="normal-color">Tratamientos</h3>
                              <p>Guía para conocer los pricipales tratamientos, guiados por médicos especialistas. </p>
                              <button id="btn-to-tratment" class="btn blue-btn">Ver más</button>
                        </div>     
@@ -60,7 +60,7 @@ export const viewHome = () => {
             <br>
             
                   <div class="row">
-                       <h3>Agrupaciones Amigas</h3>
+                       <h3 class="normal-color">Agrupaciones Amigas</h3>
                   </div>
                   <br>
                <div class="row">

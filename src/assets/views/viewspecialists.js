@@ -17,13 +17,13 @@ export const viewSpecialists = () => {
 			<div class="row">
 				<div class="col-sm-12 col-md-6">
 					<img class="specialists-img" src="./assets/img/oftal.png" alt="Imagen de oftalmólogo"></img>
-					<h4 class="specialists-title">Oftalmólogos</h4>
+					<h4 class="specialists-title normal-color">Oftalmólogos</h4>
 					<p>Lista de oftalmólogos en Chile</p>
 					<button id="btn-to-oftal" class="btn blue-btn">Ver más</button>
 				</div>
 				<div class="col-sm-12 col-md-6">
 					<img class="specialists-img" src="./assets/img/reuma.png" alt="Imagen de reumatólogo"></img>
-					<h4 class="specialists-title">Reumatólogos</h4>
+					<h4 class="specialists-title normal-color">Reumatólogos</h4>
 					<p>Lista de reumatólogos en Chile</p>
 					<button id="btn-to-reuma" class="btn blue-btn">Ver más</button>
 				</div>

@@ -15,7 +15,7 @@ export const viewAbout = () => {
 		</div>
 		<div class="row">
 			<div class="col">
-				<h3 class="about-title page-title">Sobre nosotros</h3>
+				<h3 class="about-title page-title normal-color">Sobre nosotros</h3>
 			</div>
 		</div>
 		<div class="row">
@@ -30,11 +30,11 @@ export const viewAbout = () => {
 		</div>
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
-				<h3 class="about-title page-title">Nuestra misión</h3>
+				<h3 class="about-title page-title normal-color">Nuestra misión</h3>
 				<p>Nuestro propósito es poder hacer más conocido este síndrome en Chile y poder entrar al AUGE Y GES para poder financiar el tratamiento, ya que al ser considerada una enfermedad “rara”, no tiene financiamiento.</p>
 				</div>
 			<div class="col-sm-12 col-md-6">
-				<h3 class="about-title page-title">Nuestros objetivos</h3>
+				<h3 class="about-title page-title normal-color">Nuestros objetivos</h3>
 				<p>Hoy estamos en proceso de convertirnos en fundación, para eso necesitamos llegar a que más personas nos reconozcan.</p>
 			</div>
 		</div>

@@ -4,7 +4,7 @@ export const viewTestimonial = () => {
     <div class="row">
  
       <div class="col-md-12">
-        <h1>Testimonios</h1>
+        <h1 class="normal-color">Testimonios</h1>
       </div>
         
     </div>

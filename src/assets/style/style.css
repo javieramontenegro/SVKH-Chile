@@ -12,9 +12,14 @@
     top: 0;
     font-size: 2rem;
   }
-  h1, h2, h3, h4{
+/*   h1, h2, h3, h4 {
     color: #152C7B
-    
+  } */
+  .normal-color {
+    color: #152C7B;
+  }
+  .high-contrast-color {
+    color: #ffffff;
   }
 
   .logo{
@@ -122,6 +127,9 @@ margin-top: 2.6rem;
   margin-left: auto;
   margin-right: auto;
 }
+.home_7 {
+  background-color: #ffffff;
+}
 .friend{
 text-align: center;
 }
@@ -224,6 +232,19 @@ text-align: center;
 .blue-btn:hover {
   color: #ffffff;
   background-color: #0F3461;
+}
+.white-btn {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 188px;
+  height: 61px;
+  background-color: #ffffff;
+  color: #152C7B;
+  border-radius: 4px;
+}
+.white-btn:hover {
+  color: #152C7B;
+  background-color: #f0f0f0;
 }
 /* .txt-center p{
   text-align: center;
