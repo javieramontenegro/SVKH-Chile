@@ -102,10 +102,29 @@
     background-color: #D2D2D2;
   } */
 
-  .txt-def {
+  #btn-to-about{
     margin: 3rem;
   }
-
+  .txt-def{
+    margin-left: 3rem;
+  }
+  #btn-to-symtoms{
+margin-top: 2.6rem;
+  }
+  #btn-to-especialist{
+    margin-top: 4.3rem;
+  }
+ /*  .colInfo{
+    margin:0.1rem;
+  } */
+.home_5,.home_6,.home_7{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.friend{
+text-align: center;
+}
 .accessibility-btn {
   border-radius: 50%;
   border: 1px solid red;
