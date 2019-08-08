@@ -1,7 +1,8 @@
-import { viewAbout } from './viewabout.js';
-import { viewSpecialists} from './viewspecialists.js';
-import { viewSymtoms } from './viewsymtoms.js';
-import { viewTreatment } from './viewtreatment.js';
+import { viewContact } from "./viewcontact.js";
+import { viewAbout } from "./viewabout.js";
+import { viewSpecialists } from "./viewspecialists.js"
+import { viewInfo } from "./viewinfo.js"
+import { viewSymtoms } from "./viewsymtoms.js"
 
 export const viewHome = () => {
 	document.getElementById('root').innerHTML = `
@@ -13,7 +14,7 @@ export const viewHome = () => {
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
           <img src="./assets/img/home_1.png" class="home_1"alt="home_1" >
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 align-self-center">
           <p class="txt-def">Somos Síndrome-Vogt-Koyanagi Harada Chile.
             Nuestra agrupación iniciada el 2017, busca hacer visible el síndrome en Chile y el mundo.
             Hoy estamos en proceso de convertirnos en fundación, para eso necesitamos llegar a más personas que nos reconozcan.
@@ -23,8 +24,7 @@ export const viewHome = () => {
           <button id="btn-to-about" class="btn ${window.btns}">Ver más</button>
         </div>
       </div>
-    </div>
-  </div>
+   
   <br>
   <div class="row">
     <h1 class="${window.titles}">Infórmate sobre el VKH </h1>
@@ -86,7 +86,7 @@ document.getElementById('btn-to-especialist').addEventListener('click', () => {
   window.location.hash = '#/especialistas';
 })
 document.getElementById('btn-to-tratment').addEventListener('click', () => {
-  viewTreatment();
+  viewSpecialists();
   window.location.hash = '#/tratamientos';
   document.getElementById('contrast').addEventListener('click', () => {
     window.location.hash = '#/tratamientos/contraste';

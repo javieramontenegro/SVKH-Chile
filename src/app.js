@@ -10,8 +10,9 @@ const init = () => {
 
 normalTitle();
 normalBtn();
-window.addEventListener('load', init)
 
+window.addEventListener('load', init)
+ 
 let contrast = document.getElementById("contrast");
 contrast.addEventListener('click', () => {
     changeContrast()
