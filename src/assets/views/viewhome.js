@@ -1,9 +1,3 @@
-import { viewContact } from "./viewcontact.js";
-import { viewAbout } from "./viewabout.js";
-import { viewSpecialists } from "./viewspecialists.js"
-import { viewInfo } from "./viewinfo.js"
-import { viewSymtoms } from "./viewsymtoms.js"
-
 export const viewHome = () => {
 	document.getElementById('root').innerHTML = `
 
@@ -112,4 +106,3 @@ document.getElementById('btn-to-tratment').addEventListener('click', () => {
   window.location.hash = '#/tratamientos';
 })
 }
-

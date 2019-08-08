@@ -6,11 +6,15 @@ import { viewHome } from './assets/views/viewhome.js';
 import { viewInfo } from './assets/views/viewinfo.js';
 import { viewSpecialists } from './assets/views/viewspecialists.js';
 import { viewSymtoms } from './assets/views/viewsymtoms.js';
+import { viewTreatment } from './assets/views/viewtreatment.js'
 import { viewOftal } from './assets/views/viewoftal.js'
 import { viewReuma } from './assets/views/viewreuma.js';
 
+
+
+
 const changeRoute = (hash) => {
-  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/oftalmologos' || hash === '#/reumatologos' || hash === '' || hash === '#/' || hash === '/#') {
+  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/oftalmologos' || hash === '#/reumatologos' || hash === '#/sintomas' || hash === '#/tratamiento' || hash === '' || hash === '#/' || hash === '/#') {
     return showView(hash);
   }
   return showView(hash);
@@ -48,6 +52,9 @@ const showView = (hash) => {
   else if (router === 'sintomas'){
     viewSymtoms();
   }
+  else if (router === 'tratamiento'){
+    viewTreatment();
+  }
 
   else {
     root.innerHTML = `<h1>Error 404</h1>`
@@ -55,10 +62,12 @@ const showView = (hash) => {
 }
 
 export const initRouter = () => {
+  console.log("hola1?")
   window.addEventListener('load', changeRoute(window.location.hash));
-
   if ('onhashchange' in window) {
+    console.log("hola?2")
     window.onhashchange = () => {
+      console.log("hola?3")
       changeRoute(window.location.hash);
     }
   }
