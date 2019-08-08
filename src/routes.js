@@ -10,6 +10,7 @@ import { viewTreatment } from './assets/views/viewtreatment.js'
 import { viewOftal } from './assets/views/viewoftal.js'
 import { viewReuma } from './assets/views/viewreuma.js';
 import { topFunction } from './app.js'
+import { viewTestimonial } from './assets/views/viewtestimonial.js';
 
 
 
@@ -55,6 +56,9 @@ const showView = (hash) => {
   }
   else if (router === 'tratamientos'){
     viewTreatment();
+  }
+  else if (router === 'testimonios'){
+    viewTestimonial();
   }
 
   else {
