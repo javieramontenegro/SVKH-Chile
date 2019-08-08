@@ -55,7 +55,7 @@ export const viewTreatment = () => {
 
     </div>
 
-    <div class="row">
+    <div class="row symptoms">
  
       <div class="col-md-12">
         <h2>Otros Medicamentos</h2>
@@ -66,7 +66,7 @@ export const viewTreatment = () => {
         
     </div>
     <br>
-    <div class="row">
+    <div class="row symptoms">
  
       <div class="col-md-12">
         <h2>Cirugía</h2>
@@ -76,8 +76,8 @@ export const viewTreatment = () => {
         
     </div>
 
-    <br>
-    <div class="row">
+    
+    <div class="row symptoms">
  
       <div class="col-md-12">
         <h2>Mas Información</h2>
