@@ -106,19 +106,19 @@ export const viewHome = () => {
     
        
 	`
-  document.getElementById('a-to-about').addEventListener('click', () => {
+  document.getElementById('btn-to-about').addEventListener('click', () => {
     viewAbout();
     window.location.hash = '#/nosotros';
 })
-document.getElementById('a-to-symtoms').addEventListener('click', () => {
+document.getElementById('btn-to-symtoms').addEventListener('click', () => {
   viewSymtoms();
   window.location.hash = '#/sintomas';
 })
-document.getElementById('a-to-especialist').addEventListener('click', () => {
+document.getElementById('btn-to-especialist').addEventListener('click', () => {
   viewSpecialists();
   window.location.hash = '#/especialistas';
 })
-document.getElementById('a-to-tratment').addEventListener('click', () => {
+document.getElementById('btn-to-tratment').addEventListener('click', () => {
   viewSpecialists();
   window.location.hash = '#/tratamientos';
 })

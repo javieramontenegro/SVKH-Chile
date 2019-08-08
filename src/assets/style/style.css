@@ -206,7 +206,6 @@
   color: #ffffff;
   background-color: #0F3461;
 }
-
 /* .txt-center p{
   text-align: center;
 } */
@@ -223,8 +222,19 @@
   margin-bottom: 70px;
 	padding: 30px;
 }
-.table, th, td {
-  border: 1px solid black;
+.specialists-title {
+  margin-top: 1rem;
+}
+table {
+  margin-top: 2rem;
+}
+
+.tr-specialists {
+  border-bottom: #C4C4C4 1px solid;
+}
+.td-specialists {
+  border-left: #828282 3px solid;
+  padding-left: 15px;
 }
 @media (max-width: 600px) {
   .footer {
@@ -238,6 +248,15 @@
     text-align: center;
   }
   .contact-container {
+    text-align: center;
+  }
+  .specialists-img {
+    width: 250px;
+  }
+  #btn-to-specialists {
+    float: none !important;
+  }
+  .back-btn {
     text-align: center;
   }
 }
