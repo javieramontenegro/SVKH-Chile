@@ -54,7 +54,7 @@ export const viewHome = () => {
                              <h3>Tratamientos</h3>
                              <p>Guia para conocer los pricipales tratamientos, guiado por médicos especialistas. </p>
                              <button id="btn-to-tratment" class="btn blue-btn">Ver más</button>
-                       </div>   
+                       </div>     
                   </div>  
              
           
