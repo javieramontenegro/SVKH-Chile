@@ -5,7 +5,7 @@ export const viewContact = () => {
 	<div class="contact-page-container container">
 		<div class="row route-title">
 			<div class="col">
-				<h6>
+				<h6 class="${window.titles}">
 					<a href="#/home" role="button" id="a-to-home">Home</a>
 					/
 					<span><a>Contacto</a></span>
@@ -14,7 +14,7 @@ export const viewContact = () => {
 		</div>
 		<div class="row">
 			<div class="col">
-				<h3 class="contact-title page-title normal-color">Contáctanos</h3>
+				<h3 class="contact-title page-title ${window.titles}">Contáctanos</h3>
 			</div>
 		</div>
 		<div class="row">
@@ -24,7 +24,7 @@ export const viewContact = () => {
 		</div>
 		<div class="row">
 			<div class="col">
-				<p class="contact-email normal-color">agrupacionsvkhchile@gmail.com</p>
+				<p class="contact-email ${window.titles}">agrupacionsvkhchile@gmail.com</p>
 			</div>
 		</div>
 		<div class="row">

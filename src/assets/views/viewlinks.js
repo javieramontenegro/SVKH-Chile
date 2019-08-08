@@ -17,7 +17,7 @@ export const viewLinks = () => {
       </div>
       <div class="row">
         <div class="col">
-          <h1 class="normal-color">Página en construcción</h1>
+          <h1 class="${window.titles}">Página en construcción</h1>
         </div>
       </div>
     </div>

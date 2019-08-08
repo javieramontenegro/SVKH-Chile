@@ -2,11 +2,13 @@ export const changeContrast = () => {
   let body = document.getElementById("body");
   
 	if(body.classList.contains("normal-content")) {
-      let titles = document.querySelectorAll(".normal-color");
+      let titlesh = document.querySelectorAll(".normal-color");
       let buttons = document.querySelectorAll(".blue-btn");
+      window.titles = "high-contrast-color";
+      window.btns = "white-btn"
 			body.classList.remove("normal-content");
       body.classList.add("high-contrast-content");
-      titles.forEach(element => {
+      titlesh.forEach(element => {
         element.classList.remove("normal-color");
         element.classList.add("high-contrast-color");
       })
@@ -16,11 +18,13 @@ export const changeContrast = () => {
       })
 		}
 	else {
-    let titles = document.querySelectorAll(".high-contrast-color");
+    let titlesh = document.querySelectorAll(".high-contrast-color");
     let buttons = document.querySelectorAll(".white-btn");
 		body.classList.remove("high-contrast-content");
     body.classList.add("normal-content");
-    titles.forEach(element => {
+    window.titles = "normal-color";
+    window.btns = "blue-btn";
+    titlesh.forEach(element => {
       element.classList.remove("high-contrast-color");
       element.classList.add("normal-color");
     })

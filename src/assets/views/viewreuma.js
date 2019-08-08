@@ -17,12 +17,12 @@ export const viewReuma = () => {
       </div>
       <div class="row">
         <div class="col">
-          <h4>Lista de especialistas tratantes en Chile.</h4>
+          <h4 class="${window.titles}">Lista de especialistas tratantes en Chile.</h4>
         </div>
       </div>
       <div class="row specialists-title">
         <div class="col">
-          <h5>Reumatólogos</h5>
+          <h5 class="${window.titles}">Reumatólogos</h5>
         </div>
       </div>
       <div class="row">
@@ -310,7 +310,7 @@ export const viewReuma = () => {
       </div>
       <div class="row back-btn">
         <div class="col">
-          <button id="btn-to-specialists" class="btn blue-btn float-right">Volver</button>
+          <button id="btn-to-specialists" class="btn ${window.btns} float-right">Volver</button>
         </div>
       </div>
     </div>

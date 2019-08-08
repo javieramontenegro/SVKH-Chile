@@ -3,9 +3,13 @@ import { changeContrast } from "./assets/logic/logiccontrast.js"
 import { modifySize, backToNormal } from "./assets/logic/logicsize.js"
 
 const init = () => {
-    initRouter()
+    normalTitle();
+    normalBtn();
+    initRouter();
 }
 
+normalTitle();
+normalBtn();
 window.addEventListener('load', init)
 
 let contrast = document.getElementById("contrast");
@@ -22,6 +26,14 @@ let smallerSize = document.getElementById("smaller-size");
 smallerSize.addEventListener('click', () => {
     backToNormal();
 });
+
+export function normalTitle () {
+    console.log("holaaaa")
+    window.titles = "normal-color";
+}
+export function normalBtn () {
+    window.btns = "blue-btn";
+}
 
 export function topFunction() {
     document.body.scrollTop = 0; // For Safari

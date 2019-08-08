@@ -6,7 +6,7 @@ export const viewTreatment = () => {
     
       <div class="col-md-6 ">
       
-        <h1 class="normal-color">Tratamiento</h1>
+        <h1 class="${window.titles}">Tratamiento</h1>
         <p>El mejor manejo de la enfermedad de Vogt-Koyanagi-Harada envuelve a varios especialistas,
         incluyendo los dermatólogos, oftalmólogos, y neurólogos.</p>
              
@@ -19,7 +19,7 @@ export const viewTreatment = () => {
     <div class="row symptoms">
     
       <div class="col-md-6">
-        <h2 class="normal-color">Corticoides Sistémicos</h2>
+        <h2 class="${window.titles}">Corticoides Sistémicos</h2>
         <p>El tratamiento debe ser hecho con corticoides sistémicos en altas dosis, 
         durante por lo menos 6 meses, en cuanto se sepa el diagnóstico de la enfermedad. Sin embargo,
         las dosis altas de corticoides se asocian con efectos secundarios como: </p>
@@ -44,7 +44,7 @@ export const viewTreatment = () => {
       </div>
 
       <div class="col-md-6">
-        <h2 class="normal-color">Inmunomodulador</h2>
+        <h2 class="${window.titles}">Inmunomodulador</h2>
         <p>La disminución de los corticoides se hace de forma gradual durante un período de por lo menos 6 meses,
         para evitar la recurrencia y las complicaciones.<br>
         La adición de los medicamentos inmunomoduladores (como metotrexato, azatioprina, ciclosporina A, micofenolato mofetilo y agentes alquilantes).<br>
@@ -58,7 +58,7 @@ export const viewTreatment = () => {
     <div class="row symptoms">
  
       <div class="col-md-12">
-        <h2 class="normal-color">Otros Medicamentos</h2>
+        <h2 class="${window.titles}">Otros Medicamentos</h2>
         <p>En pacientes que no responden a los corticoides combinados con los agentes inmunosupresores,
         se deben considerar los medicamentos anti-TNF y otros medicamentos biológicos como Adalimumab.</p>
 
@@ -69,7 +69,7 @@ export const viewTreatment = () => {
     <div class="row symptoms">
  
       <div class="col-md-12">
-        <h2 class="normal-color">Cirugía</h2>
+        <h2 class="${window.titles}">Cirugía</h2>
         <p>En algunas personas se necesita cirugía para el glaucoma. </p>
 
       </div>
@@ -80,7 +80,7 @@ export const viewTreatment = () => {
     <div class="row symptoms">
  
       <div class="col-md-12">
-        <h2 class="normal-color">Más Información</h2>
+        <h2 class="${window.titles}">Más Información</h2>
         <p>Si buscas mayor información sobre el síndrome y sus tratamientos, puedes visitar los siguientes <a id="a-to-links" href="#/links" role="button"><b>links</b></a>.</p>
 
       </div>

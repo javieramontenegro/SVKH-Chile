@@ -8,7 +8,7 @@ import { viewSymtoms } from './assets/views/viewsymtoms.js';
 import { viewTreatment } from './assets/views/viewtreatment.js'
 import { viewOftal } from './assets/views/viewoftal.js'
 import { viewReuma } from './assets/views/viewreuma.js';
-import { topFunction } from './app.js'
+import { topFunction, normalTitle, normalBtn } from './app.js'
 import { viewTestimonial } from './assets/views/viewtestimonial.js';
 import { viewLinks } from './assets/views/viewlinks.js'
 
@@ -69,7 +69,7 @@ const showView = (hash) => {
 }
 
 export const initRouter = () => {
-  console.log("hola1?")
+
   window.addEventListener('load', changeRoute(window.location.hash));
   if ('onhashchange' in window) {
     console.log("hola?2")

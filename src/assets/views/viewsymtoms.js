@@ -6,7 +6,7 @@ export const viewSymtoms = () => {
     
       <div class="col-md-6 ">
       
-        <h2 class="normal-color">Primeros Síntomas</h2>
+        <h2 class="${window.titles}">Primeros Síntomas</h2>
         <p>La fase inicial o prodrómica tiene síntomas similares a la gripe que pueden incluir:</p>
         <ul>
           <li> Dolor de cabeza </li>
@@ -35,7 +35,7 @@ export const viewSymtoms = () => {
       </div>
     
       <div class="col-md-6">
-        <h2 class="normal-color">Fase Uveitica</h2>
+        <h2 class=${window.titles}">Fase Uveitica</h2>
         <p>Estos síntomas generalmente son seguidos en pocas semanas por:</p>
         <ul>
           <li> La inflamación de varias partes del ojo (panuveítis) que puede ocurrir
@@ -51,7 +51,7 @@ export const viewSymtoms = () => {
     <div class="row symptoms">
 
       <div class="col-md-6">
-          <h2 class="normal-color">Fase Convaleciente</h2>
+          <h2 class=${window.titles}">Fase Convaleciente</h2>
           <p>Esta etapa se caracteriza por:</p>
             <ul>
               <li> Coroides, pérdida de color en la capa del ojo. </li>
@@ -75,7 +75,7 @@ export const viewSymtoms = () => {
       </div>
     
       <div class="col-md-6">
-        <h2 class="normal-color">Etapa Crónica</h2>
+        <h2 class=${window.titles}">Etapa Crónica</h2>
         <p>Estos síntomas generalmente son seguidos en pocas semanas por:</p>
           <ul>
             <li> Cataratas.</li>
