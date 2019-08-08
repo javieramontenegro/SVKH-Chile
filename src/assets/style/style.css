@@ -3,7 +3,7 @@
 .header{
     display: flex;
     justify-content: left;
-    z-index: 1;
+    z-index: 2;
     overflow: hidden;
     background-color: #152C7B;
     padding: 1rem 5rem;
@@ -34,6 +34,8 @@
     align-content: flex-end;
     z-index: 1;
     border-bottom: 6px solid #152C7B;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .navbar{
     padding:0rem !important;
@@ -82,7 +84,20 @@
     text-decoration-color: blue;
     text-decoration-style: solid;
   }
-
+.option{
+  position: fixed;
+  margin-top: 10rem;
+  z-index: 3;
+  /* left: 50rem; */
+  
+}
+.back{
+  padding-top: 9rem;
+  padding-left: 90rem;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+}
   .home_1{
     width: 90%;
   } 
@@ -110,9 +125,7 @@
   #btn-to-about{
     margin: 3rem;
   }
-  .txt-def{
-    margin-left: 3rem;
-  }
+ 
   #btn-to-symtoms{
 margin-top: 2.6rem;
   }
