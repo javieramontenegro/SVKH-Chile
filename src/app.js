@@ -22,3 +22,8 @@ let smallerSize = document.getElementById("smaller-size");
 smallerSize.addEventListener('click', () => {
     backToNormal();
 });
+
+export function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }

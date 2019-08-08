@@ -9,12 +9,13 @@ import { viewSymtoms } from './assets/views/viewsymtoms.js';
 import { viewTreatment } from './assets/views/viewtreatment.js'
 import { viewOftal } from './assets/views/viewoftal.js'
 import { viewReuma } from './assets/views/viewreuma.js';
+import { topFunction } from './app.js'
 
 
 
 
 const changeRoute = (hash) => {
-  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/oftalmologos' || hash === '#/reumatologos' || hash === '#/sintomas' || hash === '#/tratamiento' || hash === '' || hash === '#/' || hash === '/#') {
+  if (hash === '#/nosotros' || hash === '#/contacto' || hash === '#/home' || hash === '#/info' || hash === '#/especialistas' || hash === '#/oftalmologos' || hash === '#/reumatologos' || hash === '#/sintomas' || hash === '#/tratamientos' || hash === '' || hash === '#/' || hash === '/#') {
     return showView(hash);
   }
   return showView(hash);
@@ -52,7 +53,7 @@ const showView = (hash) => {
   else if (router === 'sintomas'){
     viewSymtoms();
   }
-  else if (router === 'tratamiento'){
+  else if (router === 'tratamientos'){
     viewTreatment();
   }
 
@@ -69,6 +70,7 @@ export const initRouter = () => {
     window.onhashchange = () => {
       console.log("hola?3")
       changeRoute(window.location.hash);
+      topFunction();
     }
   }
 }

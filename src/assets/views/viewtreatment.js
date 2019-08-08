@@ -60,7 +60,7 @@ export const viewTreatment = () => {
       <div class="col-md-12">
         <h2>Otros Medicamentos</h2>
         <p>En pacientes que no responden a los corticoides combinados con los agentes inmunosupresores,
-        se deben considerar los medicamentos anti-TNF y otros medicamentos biológicos como Adalimumab</p>
+        se deben considerar los medicamentos anti-TNF y otros medicamentos biológicos como Adalimumab.</p>
 
       </div>
         
@@ -80,8 +80,8 @@ export const viewTreatment = () => {
     <div class="row">
  
       <div class="col-md-12">
-        <h2>Mas Información</h2>
-        <p>Si buscas mayor informacion sobre el sindrome y sus tratamientos, puedes visitar los siguientes links.</p>
+        <h2>Más Información</h2>
+        <p>Si buscas mayor información sobre el síndrome y sus tratamientos, puedes visitar los siguientes links.</p>
 
       </div>
         
