@@ -34,97 +34,80 @@ export const viewHome = () => {
                   <h1>Informate sobre el VKH </h1>
            </div>
         <br>
-           <div class="row">
-              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          
                   <div class="row">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
                        <img src="./assets/img/home_2.png" class="home_2"alt="home_2" >
                         <h3> Sintomas</h3>
                          <p>Conoce los principales síntomas del Sindrome Vogt Koyanagi Harada. </p>
-                         
+                         <button id="btn-to-symtoms" class="btn blue-btn">Ver más</button>
                     </div> 
-                       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
                           <img src="./assets/img/home_3.png" class="home_3"alt="ojo" >
                            <h3>Medicos en Chile</h3>
                             <p>Lista de médicos tratantes en Chile. </p>
-                            
+                            <button id="btn-to-especialist" class="btn blue-btn">Ver más</button>
                        </div>   
                 
-                       <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
                             <img src="./assets/img/home_4.png" class="home_4"alt="tratamiento" >
                              <h3>Tratamientos</h3>
                              <p>Guia para conocer los pricipales tratamientos, guiado por médicos especialistas. </p>
-                         
+                             <button id="btn-to-tratment" class="btn blue-btn">Ver más</button>
                        </div>   
                   </div>  
-              </div>     
-            </div>
-            <div class="row">
-                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="row">
-                         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                             <button id="btn-to-symtoms" class="btn blue-btn">Ver más</button>
-                           </div>   
-                           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                             <button id="btn-to-especialist" class="btn blue-btn">Ver más</button>
-                           </div>
-                           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                           <button id="btn-to-tratment" class="btn blue-btn">Ver más</button>
-                            </div>
-                    
-                      </div> 
-                 </div> 
-            </div>      
+             
+          
             <br>
             
                   <div class="row">
                        <h3>Agrupaciones Amigas </h3>
                   </div>
                   <br>
-                  <div class="row justify-content-end">
-                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                      <div class="row justify-content-end">
-                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+               <div class="row">
+                 
+                     
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                            <img src="./assets/img/home_5.png" class="home_5"alt="uveitis Argentina" >
                             <div class="txt-center">
-                             <p>    Grupo Argentina de Uveitis </p>
+                             <p class="friend">    Grupo Argentina de Uveitis </p>
                              </div>
                         </div> 
-                           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                               <img src="./assets/img/home_6.png" class="home_6"alt="mexico ayuda svkh" >
                                
-                                <p>Mexico ayuda Sindrome Vogt-Koyanagi Harada </p>
+                                <p class="friend">Mexico ayuda Sindrome Vogt-Koyanagi Harada </p>
                                 
                            </div>   
                     
-                           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                           <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                                 <img src="./assets/img/home_7.png" class="home_7"alt="Epistemonikos" >
                                  
-                                 <p>Epistemonikos </p>
+                                 <p class="friend">Epistemonikos </p>
                              
                            </div>   
-                      </div>  
+                       
                    </div>     
                 </div>
-           </div>
+           
   
        
     
        
 	`
-  document.getElementById('a-to-about').addEventListener('click', () => {
+  document.getElementById('btn-to-about').addEventListener('click', () => {
     viewAbout();
     window.location.hash = '#/nosotros';
 })
-document.getElementById('a-to-symtoms').addEventListener('click', () => {
+document.getElementById('btn-to-symtoms').addEventListener('click', () => {
   viewSymtoms();
   window.location.hash = '#/sintomas';
 })
-document.getElementById('a-to-especialist').addEventListener('click', () => {
+document.getElementById('btn-to-especialist').addEventListener('click', () => {
   viewSpecialists();
   window.location.hash = '#/especialistas';
 })
-document.getElementById('a-to-tratment').addEventListener('click', () => {
+document.getElementById('btn-to-tratment').addEventListener('click', () => {
   viewSpecialists();
   window.location.hash = '#/tratamientos';
 })
