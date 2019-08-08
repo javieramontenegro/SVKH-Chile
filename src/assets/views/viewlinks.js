@@ -17,7 +17,22 @@ export const viewLinks = () => {
       </div>
       <div class="row">
         <div class="col">
-          <h1 class="${window.titles}">Página en construcción</h1>
+          <h3 class="${window.titles}">Links de interés</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>Acá puedes encontrar links de especialistas y sitios de interés:</p>
+          <br>
+          <ul>
+            <li><a title="Alfredo Adan" href="https://www.alfredoadan.es/el-sindrome-de-vkh/">Dr. Alfredo Adan</a></li>
+            <li><a title="Orpha" href="https://www.orpha.net/consor/cgi-bin/OC_Exp.php?Lng=GB&Expert=3437">Orpha</a></li>
+            <li><a title="Fenpof Chile" href="https://www.facebook.com/FenpofChile/">Fenpof Chile</a></li>
+            <li><a title="Coalivi" href="https://www.coalivi.cl/">Coalivi</a></li>
+            <li><a title="Birdshot" href="https://birdshot.org.uk/">Birdshot Uveitis Society</a></li>
+            <li><a title="Ley Ricarte Soto" href="https://www.minsal.cl/leyricarte/">Ley Ricarte Soto</a></li>
+          </ul>
+
         </div>
       </div>
     </div>

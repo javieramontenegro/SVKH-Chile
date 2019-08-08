@@ -24,7 +24,7 @@ export const viewContact = () => {
 		</div>
 		<div class="row">
 			<div class="col">
-				<p class="contact-email ${window.titles}">agrupacionsvkhchile@gmail.com</p>
+				<p>agrupacionsvkhchile@gmail.com</p>
 			</div>
 		</div>
 		<div class="row">

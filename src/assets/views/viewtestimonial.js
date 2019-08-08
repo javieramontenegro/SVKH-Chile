@@ -1,6 +1,18 @@
+import { viewHome } from './viewhome.js';
+
 export const viewTestimonial = () => {
   document.getElementById('root').innerHTML = `
-
+  <div class="row route-title">
+    <div class="col">
+      <h6 class="${window.titles}">
+        <a href="#/home" role="button" id="a-to-home">Home</a>
+        /
+        <span><a>¿Qué es el SVKH?</a></span>
+        /
+        <span><a>Testimonios</a></span>
+      </h6>
+    </div>
+  </div>
     <div class="row">
  
       <div class="col-md-12">
@@ -44,5 +56,8 @@ export const viewTestimonial = () => {
     
     
   `
-
+  document.getElementById('a-to-home').addEventListener('click', () => {
+    viewHome();
+    window.location.hash = '#/home';
+  });
 }
