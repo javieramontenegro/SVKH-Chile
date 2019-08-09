@@ -35,7 +35,7 @@ export const viewReuma = () => {
                 <p>Tomás Sepúlveda</p>
               </td>
               <td class="td-specialists">
-                <p>- Ahumada 312 Of. 224 (Fonasa e Isapre).</p>
+                <p>- Ahumada 312 Of. 224 (Fonasa e Isapre). <a href="https://goo.gl/maps/zzYqFbsD1myH9wxM6" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -43,8 +43,8 @@ export const viewReuma = () => {
                 <p>Carolina Llanos</p>
               </td>
               <td class="td-specialists">
-                <p>- UC San Jorge (Isapre).</p>
-                <p>- UC San Joaquín (Fonasa e Isapre).</p>
+                <p>- Centro Medico UC, San Jorge (Isapre). <a href="https://goo.gl/maps/Cqu6UxA4fvX5ESAg8" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Centro Medico UC, San Joaquín (fonasa e isapre). <a href="https://goo.gl/maps/Cqu6UxA4fvX5ESAg8" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -52,7 +52,7 @@ export const viewReuma = () => {
                 <p>Francisca Saburgo</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Clínico U. de Chile (Isapre).</p>
+                <p>- Hospital Clínico U. de Chile (Isapre). <a href="https://goo.gl/maps/Bd5Ns65mXUD5VPNp8" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -60,7 +60,7 @@ export const viewReuma = () => {
                 <p>Neva Cáceres</p>
               </td>
               <td class="td-specialists">
-                <p>- Salvador 95 Of. 608 (Fonasa).</p>
+                <p>- Salvador 95 Of. 608 (Fonasa). <a href="https://goo.gl/maps/rnK7BT2eopmFgUPn7" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -68,7 +68,7 @@ export const viewReuma = () => {
                 <p>Jaime Ochoa</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital San José.</p>
+                <p>- Hospital San José. <a href="https://goo.gl/maps/qaPombuwbhZTEbFZ9" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -76,7 +76,7 @@ export const viewReuma = () => {
                 <p>Dra. Bezanilla</p>
               </td>
               <td class="td-specialists">
-                <p>- Centro Medico Vival fono 226305500.</p>
+                <p>- Centro Medico Vival fono 226305500. <a href="https://goo.gl/maps/GKueM5vFEaUZhiRz9" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -84,7 +84,7 @@ export const viewReuma = () => {
                 <p>Cristian Carpentier Giglio</p>
               </td>
               <td class="td-specialists">
-                <p>- Atiende en Fundación Oftalmológica Los Andes.</p>
+                <p>- Atiende en Fundación Oftalmológica Los Andes. <a href="https://goo.gl/maps/9p5i2ZKPF4nAMry29" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -92,7 +92,7 @@ export const viewReuma = () => {
                 <p>Dra. García</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital San Juan.</p>
+                <p>- Hospital San Juan. <a href="https://goo.gl/maps/NpP5K7MS97e27n369" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -100,7 +100,7 @@ export const viewReuma = () => {
                 <p>Pamela Díaz</p>
               </td>
               <td class="td-specialists">
-                <p>- Clínica Católica, Campus San Joaquín, Red Salud Uc Fonasa e Isapre).</p>
+                <p>- Centro Medico UC San Joaquín. (Fonasa e isarpe) <a href="https://goo.gl/maps/Cqu6UxA4fvX5ESAg8" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -108,7 +108,7 @@ export const viewReuma = () => {
                 <p>Mariola Cerda</p>
               </td>
               <td class="td-specialists">
-                <p>- Redsalud Providencia, (Fonasa e Isapre).</p>
+                <p>- Redsalud Providencia, (Fonasa e Isapre). <a href="https://goo.gl/maps/CSLTdyMiFHiUXaFa6" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -124,7 +124,7 @@ export const viewReuma = () => {
                 <p>Paola Kusnir</p>
               </td>
               <td class="td-specialists">
-                <p>- Clínica Santa María (Isapre y Particular).</p>
+                <p>- Clínica Santa María (Isapre y Particular). <a href="https://goo.gl/maps/f6qHHMumH7UWeaNN6" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -132,7 +132,7 @@ export const viewReuma = () => {
                 <p>Sergio Aguilera</p>
               </td>
               <td class="td-specialists">
-                <p>- Clínica Indisa (Isapre y Particular).</p>
+                <p>- Clínica Indisa (Isapre y Particular). <a href="https://goo.gl/maps/XssXqm4ZGKREUhi68" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -140,7 +140,7 @@ export const viewReuma = () => {
                 <p>Viviana Maluje Badiola</p>
               </td>
               <td class="td-specialists">
-                <p>- Clínica Santa María (Fonasa e Isapre).</p>
+                <p>- Clínica Santa María (Fonasa e Isapre). <a href="https://goo.gl/maps/f6qHHMumH7UWeaNN6" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -148,7 +148,7 @@ export const viewReuma = () => {
                 <p>Sergio Jacobelli</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Sótero del Río.</p>
+                <p>- Hospital Sótero del Río. <a href="https://goo.gl/maps/CNgprUpsdiaCjTZR6" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -156,7 +156,8 @@ export const viewReuma = () => {
                 <p>Verónica Mezzano</p>
               </td>
               <td class="td-specialists">
-                <p>- San Jorge y Marcoleta UC (Isapre).</p>
+                <p>- Centro Medico San Jorge (Isapre). <a href="https://goo.gl/maps/6u9cQ8RiAEUuMTzy5" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Centro Medico UC Marcoleta (Isapre). <a href="https://goo.gl/maps/YCisJHce5p97Ny2a6" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -164,7 +165,7 @@ export const viewReuma = () => {
                 <p>Omar Valenzuela</p>
               </td>
               <td class="td-specialists">
-                <p>- Clínica Alemana (particular).</p>
+                <p>- Clínica Alemana (particular). <a href="https://goo.gl/maps/D95128MeyaCEk3EV8" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -172,7 +173,7 @@ export const viewReuma = () => {
                 <p>Dr. Gallo</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital San Borja (Fonasa).</p>
+                <p>- Hospital San Borja (Fonasa). <a href="https://goo.gl/maps/RHbBUqWRUSWq2xc86" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -180,7 +181,7 @@ export const viewReuma = () => {
                 <p>Marcela Cisternas</p>
               </td>
               <td class="td-specialists">
-                <p>- Edificio Alcantara UC.</p>
+                <p>- Edificio Alcantara UC. <a href="https://goo.gl/maps/RtAYU9tLhDifQQLAA" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -188,7 +189,7 @@ export const viewReuma = () => {
                 <p>Francisco Radrigan</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Sótero del Río.</p>
+                <p>- Hospital Sótero del Río. <a href="https://goo.gl/maps/CNgprUpsdiaCjTZR6" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -196,7 +197,7 @@ export const viewReuma = () => {
                 <p>Paula Pozo</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital san Borja.</p>
+                <p>- Hospital san Borja. <a href="https://goo.gl/maps/RHbBUqWRUSWq2xc86" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -204,7 +205,7 @@ export const viewReuma = () => {
                 <p>Milena Mímica</p>
               </td>
               <td class="td-specialists">
-                <p>- Centro Medico UC San Joaquín (Fonasa).</p>
+                <p>- Centro Medico UC San Joaquín (Fonasa). <a href="https://goo.gl/maps/Cqu6UxA4fvX5ESAg8" target ="_blank"> Ver Mapa.</a></p></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -212,9 +213,9 @@ export const viewReuma = () => {
                 <p>Carlos Baumert</p>
               </td>
               <td class="td-specialists">
-                <p>- Centro Medico Dinamarca (Fonasa e Isapre).</p>
-                <p>- Clínica Alemana (Particular).</p>
-                <p>- Hospital Regional de Temuco (Fonasa, Auge).</p>
+                <p>- Centro Medico Dinamarca (Fonasa e Isapre). <a href="https://goo.gl/maps/RqkZ2a3PiUtxAQqZ8" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Clínica Alemana (Particular). <a href="https://goo.gl/maps/ovLgtkckBFMQtsy27" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Hospital Regional de Temuco (Fonasa, Auge). <a href="https://goo.gl/maps/1ZtY1LTQbkpxc4Ef7" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -222,7 +223,8 @@ export const viewReuma = () => {
                 <p>Carmen María Pinochet</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital de Talca, Clínica de la U. Católica.</p>
+                <p>- Hospital de Talca. <a href="https://goo.gl/maps/G46zwvEJRvdw1bN68" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Clínica de la U. Católica. <a href="https://goo.gl/maps/NvJKQa24kkT23Vvt7" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -230,7 +232,7 @@ export const viewReuma = () => {
                 <p>Vicente Gonzalez/p>
               </td>
               <td class="td-specialists">
-                <p>- Obelisco 14, Antofagasta (Particular).</p>
+                <p>- Obelisco 14, Antofagasta *(Particular).</p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -238,7 +240,7 @@ export const viewReuma = () => {
                 <p>Dr. Seguel</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Naval, Talcahuano.</p>
+                <p>- Hospital Naval, Talcahuano. <a href="https://goo.gl/maps/7P9xEmM7jodkPGDCA" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -246,7 +248,7 @@ export const viewReuma = () => {
                 <p>Dr. Grespo</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital de Huasco de Vallenar (Fonasa y Otros).</p>
+                <p>- Hospital de Huasco de Vallenar (Fonasa y Otros). <a href="https://goo.gl/maps/wQMtrXNZ3GU2pmGu5" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -254,7 +256,7 @@ export const viewReuma = () => {
                 <p>Andrea Reyes</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Guillermo Grau Benavente, Concepción.</p>
+                <p>- Hospital Guillermo Grand Benavente, Concepción. <a href="https://goo.gl/maps/umuzM892tQefoDZc8" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -262,7 +264,7 @@ export const viewReuma = () => {
                 <p>Sandra Pino Pinilla</p>
               </td>
               <td class="td-specialists">
-                <p>- Clínica U. De Concepción de San Pedro, Concepción.</p>
+                <p>- Clínica U. De Concepción de San Pedro, Concepción. *</p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -270,7 +272,7 @@ export const viewReuma = () => {
                 <p>Gustavo Roll</p>
               </td>
               <td class="td-specialists">
-                <p>- La Serena (Fonasa e Isapre).</p>
+                <p>- Huanhuali 330, La Serena (Fonasa e Isapre). <a href="https://goo.gl/maps/ajqof83VkQRaJEHg8" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -278,7 +280,7 @@ export const viewReuma = () => {
                 <p>Ulises Verdejo</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Carlos Van Burén, Valparaíso (Fonasa e Isapre).</p>
+                <p>- Hospital Van Buren, Valparaíso (Fonasa e Isapre). <a href="https://goo.gl/maps/6C5SkhyTFfiRp6ZKA" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -286,7 +288,7 @@ export const viewReuma = () => {
                 <p>Elena Jarpa</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Naval (Isapre y Particular).</p>
+                <p>- Hospital Naval (Isapre y Particular). <a href="https://goo.gl/maps/Bww9i68j8rFDSQGk7" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -294,8 +296,7 @@ export const viewReuma = () => {
                 <p>Christian Vergara</p>
               </td>
               <td class="td-specialists">
-                <p>- Centro Médico Clínico del Mar entre 12-13 Norte, Viña del Mar.</p>
-                <p>- Hospital Van Burén, Viña del Mar</p>
+                <p>- Hospital Van Buren, Valparaíso <a href="https://goo.gl/maps/6C5SkhyTFfiRp6ZKA" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr>
@@ -303,8 +304,7 @@ export const viewReuma = () => {
                 <p>Ricardo Jerez</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Gustavo Fricke, Viña del Mar.</p>
-                <p>- Edificio Gala Arlegui, Viña del Mar.</p>
+                <p>- Hospital Gustavo Fricke, Viña del Mar. <a href="https://goo.gl/maps/jgL1gTqAsZ3L1UHd8" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
           </table>
