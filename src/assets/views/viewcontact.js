@@ -14,7 +14,7 @@ export const viewContact = () => {
 		</div>
 		<div class="row">
 			<div class="col">
-				<h3 class="contact-title page-title ${window.titles}">Contáctanos</h3>
+				<h2 class="contact-title page-title ${window.titles}">Contáctanos</h2>
 			</div>
 		</div>
 		<div class="row">

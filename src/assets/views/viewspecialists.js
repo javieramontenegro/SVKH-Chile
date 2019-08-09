@@ -7,10 +7,12 @@ export const viewSpecialists = () => {
 		<div class="specialists-container container">
 			<div class="row route-title">
 				<div class="col">
-					<h6>
+					<h6 class="${window.titles}">
 						<a href="#/home" role="button" id="a-to-home">Home</a>
 						/
-						<span><a>Lista especialistas</a></span>
+						<span><a>Especialistas</a></span>
+						/
+						<span><a>Lista médicos Chile</a></span>
 					</h6>
 				</div>
 			</div>

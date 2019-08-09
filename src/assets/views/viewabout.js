@@ -15,7 +15,7 @@ export const viewAbout = () => {
 		</div>
 		<div class="row">
 			<div class="col">
-				<h3 class="about-title page-title ${window.titles}">Sobre nosotros</h3>
+				<h2 class="about-title page-title ${window.titles}">Sobre nosotros</h2>
 			</div>
 		</div>
 		<div class="row">

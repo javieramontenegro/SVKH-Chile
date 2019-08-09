@@ -6,10 +6,12 @@ export const viewReuma = () => {
 		<div class="reuma-container container">
       <div class="row route-title">
         <div class="col">
-          <h6>
+          <h6 class="${window.titles}">
             <a href="#/home" role="button" id="a-to-home">Home</a>
             /
-            <span><a href="#/especialistas" role="button" id="a-to-specialists">Lista especialistas</a></span>
+            <span><a>Especialistas</a></span>
+            /
+            <span><a href="#/especialistas" role="button" id="a-to-specialists">Lista médicos Chile</a></span>
             /
             <span><a>Reumatólogos</a></span>
           </h6>

@@ -1,13 +1,9 @@
-import { viewContact } from "./viewcontact.js";
 import { viewAbout } from "./viewabout.js";
 import { viewSpecialists } from "./viewspecialists.js"
-import { viewInfo } from "./viewinfo.js"
 import { viewSymtoms } from "./viewsymtoms.js"
 
 export const viewHome = () => {
 	document.getElementById('root').innerHTML = `
-
-
   <div class="row">
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
       <div class="row">
