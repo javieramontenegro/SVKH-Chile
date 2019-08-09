@@ -33,9 +33,9 @@ export const viewContact = () => {
 			</div>
 		</div>
 		<div class="row">
-			<span class="icon-container"><a href="#" data-toggle="tooltip" data-placement="right" title="Facebook" role="button"><i class="fab fa-facebook-square rs-icon"></i></a></span>
-			<span class="icon-container"><a href="#" data-toggle="tooltip" data-placement="right" title="Instagram" role="button"><i class="fab fa-instagram rs-icon"></i></a></span>
-			<span class="icon-container"><a href="#" data-toggle="tooltip" data-placement="right" title="Twitter" role="button"><i class="fab fa-twitter rs-icon"></i></a></span>
+			<span class="icon-container"><a target="_blank" href="https://www.facebook.com/groups/2412643749021965/" title="Facebook" role="button"><i class="fab fa-facebook-square rs-icon"></i></a></span>
+			<span class="icon-container"><a target="_blank" href="https://www.instagram.com/agrupacionsvkh/" title="Instagram" role="button"><i class="fab fa-instagram rs-icon"></i></a></span>
+			<span class="icon-container"><a target="_blank" href="https://twitter.com/svkhchile" title="Twitter" role="button"><i class="fab fa-twitter rs-icon"></i></a></span>
 		</div>
 	</div>
 	`

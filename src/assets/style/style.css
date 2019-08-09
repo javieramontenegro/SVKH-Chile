@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+body {
+  font-family: 'Roboto';
+}
 .header{
     display: flex;
     justify-content: left;
@@ -60,7 +63,9 @@
     color: black !important;
   
   }
- 
+  .home-img {
+    margin-bottom: 10px;
+  }
   .buttons-special{
    margin-top: 5rem;
     position: fixed;
@@ -98,7 +103,7 @@
 }
 .back{
   padding-top: 9rem;
-  padding-left: 90rem;
+  padding-left: 200rem;
  /*  margin-right: 110rem;
   margin-left: 5rem; */
   background-color: white;
@@ -329,5 +334,11 @@ table {
   }
   .home_2, .home_3, .home_4, .specialists-img {
     width: 250px;
+  }
+  .navbar-toggler {
+    margin-right: 1rem;
+  }
+  .nav-link {
+    margin-left: 1rem;
   }
 }

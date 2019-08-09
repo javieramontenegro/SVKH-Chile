@@ -23,24 +23,24 @@ export const viewHome = () => {
    
   <br>
   <div class="row">
-    <h1 class="${window.titles}">Infórmate sobre el VKH </h1>
+    <h2 class="${window.titles}">Infórmate sobre el VKH </h2>
   </div>
   <br>
   <div class="row">
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
-      <img src="./assets/img/home_3.png" class="home_2"alt="home_2" >
+      <img class="home-img" src="./assets/img/home_3.png" class="home_2"alt="home_2" >
       <h3 class="${window.titles}"> Síntomas</h3>
         <p>Conoce los principales síntomas del Síndrome Vogt Koyanagi Harada. </p>
         <button id="btn-to-symtoms" class="btn ${window.btns}">Ver más</button>
     </div> 
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
-      <img src="./assets/img/home_2.png" class="home_3"alt="ojo" >
+      <img class="home-img" src="./assets/img/home_2.png" class="home_3"alt="ojo" >
       <h3 class="${window.titles}">Médicos en Chile</h3>
       <p>Lista de médicos tratantes en Chile. </p>
       <button id="btn-to-especialist" class="btn ${window.btns}">Ver más</button>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
-      <img src="./assets/img/home_4.png" class="home_4"alt="tratamiento" >
+      <img class="home-img" src="./assets/img/home_4.png" class="home_4"alt="tratamiento" >
       <h3 class="${window.titles}">Tratamientos</h3>
       <p>Guía para conocer los pricipales tratamientos, guiados por médicos especialistas. </p>
       <button id="btn-to-tratment" class="btn ${window.btns}">Ver más</button>
@@ -48,23 +48,29 @@ export const viewHome = () => {
   </div>
   <br>
   <div class="row">
-    <h3 class="${window.titles}">Agrupaciones Amigas</h3>
+    <h2 class="${window.titles}">Agrupaciones Amigas</h2>
   </div>
   <br>
   <div class="row">  
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-      <img src="./assets/img/home_5.png" class="home_5"alt="Uveítis Argentina" >
-      <div class="txt-center">
-        <p class="friend">Grupo Argentina de Uveítis</p>
-      </div>
+      <a href="https://www.facebook.com/Grupo-Argentino-de-Uveitis-1746254748999494/">
+        <img src="./assets/img/home_5.png" class="home_5"alt="Uveítis Argentina" >
+        <div class="txt-center">
+          <p class="friend">Grupo Argentina de Uveítis</p>
+        </div>
+      </a>
     </div> 
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-      <img src="./assets/img/home_6.png" class="home_6"alt="México ayuda svkh">  
-      <p class="friend">México ayuda Síndrome Vogt-Koyanagi Harada</p>
+      <a href="https://www.facebook.com/groups/1172060986299956/">
+        <img src="./assets/img/home_6.png" class="home_6"alt="México ayuda svkh">  
+        <p class="friend">México ayuda Síndrome Vogt-Koyanagi Harada</p>
+      </a>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-      <img src="./assets/img/home_7.png" class="home_7"alt="Epistemonikos" >
-      <p class="friend">Epistemonikos </p>
+      <a href="https://www.epistemonikos.org/es">
+        <img src="./assets/img/home_7.png" class="home_7"alt="Epistemonikos" >
+        <p class="friend">Epistemonikos</p>
+      </a>
     </div>
   </div>     
   </div> 
