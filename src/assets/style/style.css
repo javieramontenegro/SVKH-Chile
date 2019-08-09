@@ -341,4 +341,7 @@ table {
   .nav-link {
     margin-left: 1rem;
   }
+  .contact-footer-text {
+    text-align: center;
+  }
 }
