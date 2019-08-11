@@ -1,0 +1,20 @@
+[debug] [2019-08-11T21:31:39.883Z] ----------------------------------------------------------------------
+[debug] [2019-08-11T21:31:39.885Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ale\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-08-11T21:31:39.885Z] CLI Version:   7.2.2
+[debug] [2019-08-11T21:31:39.885Z] Platform:      win32
+[debug] [2019-08-11T21:31:39.885Z] Node Version:  v10.15.3
+[debug] [2019-08-11T21:31:39.886Z] Time:          Sun Aug 11 2019 18:31:39 GMT-0300 (GMT-03:00)
+[debug] [2019-08-11T21:31:39.886Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-11T21:31:39.947Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-11T21:31:39.948Z] > authorizing via signed-in user
+[debug] [2019-08-11T21:31:39.948Z] [iam] checking project sindrome-vkh for permissions ["firebase.projects.get"]
+[debug] [2019-08-11T21:31:39.950Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-11T21:31:39.950Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-11T21:31:40.140Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-11T21:31:40.253Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/sindrome-vkh:testIamPermissions  
+
+[debug] [2019-08-11T21:31:41.303Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-11T21:31:41.304Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/sindrome-vkh  
+ 

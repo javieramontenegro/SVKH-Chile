@@ -262,6 +262,7 @@ text-align: center;
   color: #ffffff;
   border-radius: 4px;
 }
+
 .blue-btn:hover {
   color: #ffffff;
   background-color: #0F3461;
@@ -269,6 +270,7 @@ text-align: center;
 .white-btn {
   margin-top: 15px;
   margin-bottom: 20px;
+  font-size: x-large;
   width: 188px;
   height: 61px;
   background-color: #ffffff;
@@ -322,12 +324,26 @@ table {
   .contact-container {
     text-align: center;
   }
-
+  .inmuno-img {
+    margin-bottom: 20px;
+  }
   .footer-contact-txt {
     padding-right: 0px;
   }
+  #btn-to-about{
+    margin: 0rem;
+  }
   #btn-to-specialists {
     float: none !important;
+  }
+  #btn-to-especialist{
+    margin-top: 0rem;
+  }
+  #btn-to-symtoms{
+    margin-top: 0rem;
+  }
+  .logo {
+    margin-left: 1rem;
   }
   .back-btn {
     text-align: center;
@@ -336,7 +352,7 @@ table {
     width: 250px;
   }
   .navbar-toggler {
-    margin-right: 1rem;
+    margin-right: 1.5rem;
   }
   .nav-link {
     margin-left: 1rem;

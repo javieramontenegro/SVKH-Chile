@@ -49,10 +49,9 @@ export const viewTreatment = () => {
         <h3 class="${window.titles} page-title">Inmunomodulador</h3>
       </div>
      </div>
-     <div class="container">
     <div class="row symptoms">
       <div class="col-md-6">
-        <img class="img-fluid" src="./assets/img/medicina.png" alt="personas tomadas de la mano">
+        <img class="img-fluid inmuno-img" src="./assets/img/medicina.png" alt="personas tomadas de la mano">
       </div>
       <div class="col-md-6">
         <p>La disminución de los corticoides se hace de forma gradual durante un período de por lo menos 6 meses,
@@ -80,7 +79,6 @@ export const viewTreatment = () => {
         <h3 class="${window.titles} page-title">Más Información</h3>
         <p>Si buscas mayor información sobre el síndrome y sus tratamientos, puedes visitar los siguientes <a id="a-to-links" href="#/links" role="button"><b>links</b></a>.</p>
       </div>
-    </div>
     </div>
   `
   document.getElementById('a-to-links').addEventListener('click', () => {
