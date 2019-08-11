@@ -22,9 +22,7 @@ export const viewHome = () => {
       </div>
    
   <br>
-  <div class="row">
-    <h2 class="${window.titles}">Infórmate sobre el VKH </h2>
-  </div>
+  <h2 class="${window.titles}">Infórmate sobre el VKH </h2>
   <br>
   <div class="row">
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 colInfo">
@@ -47,13 +45,12 @@ export const viewHome = () => {
     </div>     
   </div>
   <br>
-  <div class="row">
-    <h2 class="${window.titles}">Agrupaciones Amigas</h2>
-  </div>
+
+  <h2 class="${window.titles}">Agrupaciones Amigas</h2>
   <br>
   <div class="row">  
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-      <a href="https://www.facebook.com/Grupo-Argentino-de-Uveitis-1746254748999494/">
+      <a class="${window.anchors}" href="https://www.facebook.com/Grupo-Argentino-de-Uveitis-1746254748999494/">
         <img src="./assets/img/home_5.png" class="home_5"alt="Uveítis Argentina" >
         <div class="txt-center">
           <p class="friend">Grupo Argentina de Uveítis</p>
@@ -61,13 +58,13 @@ export const viewHome = () => {
       </a>
     </div> 
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-      <a href="https://www.facebook.com/groups/1172060986299956/">
+      <a class="${window.anchors}" href="https://www.facebook.com/groups/1172060986299956/">
         <img src="./assets/img/home_6.png" class="home_6"alt="México ayuda svkh">  
         <p class="friend">México ayuda Síndrome Vogt-Koyanagi Harada</p>
       </a>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-      <a href="https://www.epistemonikos.org/es">
+      <a class="${window.anchors}" href="https://www.epistemonikos.org/es">
         <img src="./assets/img/home_7.png" class="home_7"alt="Epistemonikos" >
         <p class="friend">Epistemonikos</p>
       </a>

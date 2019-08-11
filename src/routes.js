@@ -69,12 +69,9 @@ const showView = (hash) => {
 }
 
 export const initRouter = () => {
-
   window.addEventListener('load', changeRoute(window.location.hash));
   if ('onhashchange' in window) {
-    console.log("hola?2")
     window.onhashchange = () => {
-      console.log("hola?3")
       changeRoute(window.location.hash);
       topFunction();
     }

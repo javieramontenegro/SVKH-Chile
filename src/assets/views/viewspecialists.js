@@ -8,7 +8,7 @@ export const viewSpecialists = () => {
 			<div class="row route-title">
 				<div class="col">
 					<h6 class="${window.titles}">
-						<a href="#/home" role="button" id="a-to-home">Home</a>
+						<a href="#/home" role="button" id="a-to-home" class="${window.anchors}">Home</a>
 						/
 						<span><a>Especialistas</a></span>
 						/

@@ -7,11 +7,11 @@ export const viewOftal = () => {
       <div class="row route-title">
         <div class="col">
           <h6 class="${window.titles}">
-            <a href="#/home" role="button" id="a-to-home">Home</a>
+            <a href="#/home" role="button" id="a-to-home" class="${window.anchors}">Home</a>
             /
             <span><a>Especialistas</a></span>
             /
-            <span><a href="#/especialistas" role="button" id="a-to-specialists">Lista médicos Chile</a></span>
+            <span><a href="#/especialistas" role="button" id="a-to-specialists" class="${window.anchors}">Lista médicos Chile</a></span>
             /
             <span><a>Oftalmólogos</a></span>
           </h6>
@@ -35,8 +35,8 @@ export const viewOftal = () => {
                 <p>Víctor Velásquez</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Salvador.  <a href="https://goo.gl/maps/ia1vwvADPzEUGySW6" target ="_blank"> Ver Mapa.</a> </p>
-                <p>- Consulta Particular, Padre Mariano 10 Of. 501. <a href="https://goo.gl/maps/3gyoDUDJCd9kScTP9" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Hospital Salvador.  <a class="${window.anchors}" href="https://goo.gl/maps/ia1vwvADPzEUGySW6" target ="_blank"> Ver Mapa.</a> </p>
+                <p>- Consulta Particular, Padre Mariano 10 Of. 501. <a class="${window.anchors}" href="https://goo.gl/maps/3gyoDUDJCd9kScTP9" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -44,10 +44,10 @@ export const viewOftal = () => {
                 <p>Enzo Castiglione</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Clínico U. de Chile. <a href="https://goo.gl/maps/Bd5Ns65mXUD5VPNp8" target ="_blank"> Ver Mapa.</a></p>
-                <p>- Clínica Oftalmológica 2020 (particular). <a href="https://goo.gl/maps/GMPTWm7mwEFZ3W7V9" target ="_blank"> Ver Mapa.</a></p>
-                <p>- Clínica Oftalmológica Pasteur (Fonasa, Isapre). <a href="https://goo.gl/maps/UZzaztGkkvvuEHpm7" target ="_blank"> Ver Mapa.</a></p>
-                <p>- Clínica Oftalmológica Pedro de Valdivia. <a href="https://goo.gl/maps/3TmL3K4XnCzBWjmw9" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Hospital Clínico U. de Chile. <a class="${window.anchors}" href="https://goo.gl/maps/Bd5Ns65mXUD5VPNp8" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Clínica Oftalmológica 2020 (particular). <a class="${window.anchors}" href="https://goo.gl/maps/GMPTWm7mwEFZ3W7V9" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Clínica Oftalmológica Pasteur (Fonasa, Isapre). <a class="${window.anchors}" href="https://goo.gl/maps/UZzaztGkkvvuEHpm7" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Clínica Oftalmológica Pedro de Valdivia. <a class="${window.anchors}" href="https://goo.gl/maps/3TmL3K4XnCzBWjmw9" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -55,7 +55,7 @@ export const viewOftal = () => {
                 <p>Pablo Sabat</p>
               </td>
               <td class="td-specialists">
-                <p>- Centro de la Visión - Clínica las Condes, Camino el Alba 9500 (particular, algunas Isapres). <a href="https://goo.gl/maps/CkZnFGJQtNi7vu2u6" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Centro de la Visión - Clínica las Condes, Camino el Alba 9500 (particular, algunas Isapres). <a class="${window.anchors}" href="https://goo.gl/maps/CkZnFGJQtNi7vu2u6" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -63,8 +63,8 @@ export const viewOftal = () => {
                 <p>Guillermo Merino</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital Salvador. <a href="https://goo.gl/maps/ia1vwvADPzEUGySW6" target ="_blank"> Ver Mapa.</a></p>
-                <p>- Consulta particular Padre Mariano 10 Of. 501. <a href="https://goo.gl/maps/3gyoDUDJCd9kScTP9" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Hospital Salvador. <a class="${window.anchors}" href="https://goo.gl/maps/ia1vwvADPzEUGySW6" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Consulta particular Padre Mariano 10 Of. 501. <a class="${window.anchors}" href="https://goo.gl/maps/3gyoDUDJCd9kScTP9" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -72,7 +72,7 @@ export const viewOftal = () => {
                 <p>Luis Peña García</p>
               </td>
               <td class="td-specialists">
-                <p>- Centro Medico UC San Joaquín. <a href="https://goo.gl/maps/Cqu6UxA4fvX5ESAg8" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Centro Medico UC San Joaquín. <a class="${window.anchors}" href="https://goo.gl/maps/Cqu6UxA4fvX5ESAg8" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -80,7 +80,7 @@ export const viewOftal = () => {
                 <p>Cristian Carpentier Giglio</p>
               </td>
               <td class="td-specialists">
-                <p>- Fundación Oftalmológica Los Andes. <a href="https://goo.gl/maps/9p5i2ZKPF4nAMry29" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Fundación Oftalmológica Los Andes. <a class="${window.anchors}" href="https://goo.gl/maps/9p5i2ZKPF4nAMry29" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -88,7 +88,7 @@ export const viewOftal = () => {
                 <p>Juan Verdaguer (hijo)</p>
               </td>
               <td class="td-specialists">
-                <p>- Fundación oftalmológica Los Andes. <a href="https://goo.gl/maps/9p5i2ZKPF4nAMry29" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Fundación oftalmológica Los Andes. <a class="${window.anchors}" href="https://goo.gl/maps/9p5i2ZKPF4nAMry29" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -104,7 +104,7 @@ export const viewOftal = () => {
                 <p>Marco Soto</p>
               </td>
               <td class="td-specialists">
-                <p>- Hospital San Borja. <a href="https://goo.gl/maps/RHbBUqWRUSWq2xc86" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Hospital San Borja. <a class="${window.anchors}" href="https://goo.gl/maps/RHbBUqWRUSWq2xc86" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -112,7 +112,7 @@ export const viewOftal = () => {
                 <p>Pedro Gianello Garrido</p>
               </td>
               <td class="td-specialists">
-                <p>- Clínica Oftalmológica 2020. <a href="https://goo.gl/maps/GMPTWm7mwEFZ3W7V9" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Clínica Oftalmológica 2020. <a class="${window.anchors}" href="https://goo.gl/maps/GMPTWm7mwEFZ3W7V9" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -120,7 +120,7 @@ export const viewOftal = () => {
                 <p>Rodrigo Álvarez Nazer</p>
               </td>
               <td class="td-specialists">
-                <p>- Centro Médico UC San Joaquín. <a href="https://goo.gl/maps/Cqu6UxA4fvX5ESAg8" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Centro Médico UC San Joaquín. <a class="${window.anchors}" href="https://goo.gl/maps/Cqu6UxA4fvX5ESAg8" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -128,7 +128,7 @@ export const viewOftal = () => {
                 <p>Sergio Galaz Díaz</p>
               </td>
               <td class="td-specialists">
-                <p>- Pedro Lagos 1090 depto. 603-605, Iquique. <a href="https://goo.gl/maps/DVedNdXVt3U5duta9" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Pedro Lagos 1090 depto. 603-605, Iquique. <a class="${window.anchors}" href="https://goo.gl/maps/DVedNdXVt3U5duta9" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr class="tr-specialists">
@@ -136,8 +136,8 @@ export const viewOftal = () => {
                 <p>Gonzalo Duarte</p>
               </td>
               <td class="td-specialists">
-                <p>- 4 norte 1330, Viña del Mar. Particular. <a href="https://goo.gl/maps/r4VFbVvwwVQ9YdPS6" target ="_blank"> Ver Mapa.</a></p>
-                <p>- Clínica ISV. Av. Libertar 1348 Piso 6, Torre Marina Arauco. Viña del Mar. <a href="https://goo.gl/maps/ciFCcF8MxeFzrG627" target ="_blank"> Ver Mapa.</a></p>
+                <p>- 4 norte 1330, Viña del Mar. Particular. <a class="${window.anchors}" href="https://goo.gl/maps/r4VFbVvwwVQ9YdPS6" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Clínica ISV. Av. Libertar 1348 Piso 6, Torre Marina Arauco. Viña del Mar. <a class="${window.anchors}" href="https://goo.gl/maps/ciFCcF8MxeFzrG627" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
             <tr>
@@ -145,7 +145,7 @@ export const viewOftal = () => {
                 <p>Claudio Ramírez</p>
               </td>
               <td class="td-specialists">
-                <p>- Antonio Varas 687 of. 304, Temuco (Fonasa e Isapres). <a href="https://goo.gl/maps/SsVkZy7SnocMcyuPA" target ="_blank"> Ver Mapa.</a></p>
+                <p>- Antonio Varas 687 of. 304, Temuco (Fonasa e Isapres). <a class="${window.anchors}" href="https://goo.gl/maps/SsVkZy7SnocMcyuPA" target ="_blank"> Ver Mapa.</a></p>
               </td>
             </tr>
           </table>

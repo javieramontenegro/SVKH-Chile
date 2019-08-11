@@ -6,7 +6,7 @@ export const viewTreatment = () => {
   <div class="row route-title">
     <div class="col">
       <h6 class="${window.titles}">
-        <a href="#/home" role="button" id="a-to-home">Home</a>
+        <a href="#/home" role="button" id="a-to-home" class="${window.anchors}">Home</a>
         /
         <span><a>¿Qué es el SVKH?</a></span>
         /
@@ -77,7 +77,7 @@ export const viewTreatment = () => {
     <div class="row symptoms">
       <div class="col-md-12">
         <h3 class="${window.titles} page-title">Más Información</h3>
-        <p>Si buscas mayor información sobre el síndrome y sus tratamientos, puedes visitar los siguientes <a id="a-to-links" href="#/links" role="button"><b>links</b></a>.</p>
+        <p>Si buscas mayor información sobre el síndrome y sus tratamientos, puedes visitar los siguientes <a class="${window.anchors}" id="a-to-links" href="#/links" role="button"><b>links</b></a>.</p>
       </div>
     </div>
   `

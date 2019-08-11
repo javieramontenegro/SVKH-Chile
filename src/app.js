@@ -5,11 +5,13 @@ import { modifySize, backToNormal } from "./assets/logic/logicsize.js"
 const init = () => {
     normalTitle();
     normalBtn();
+    normalAnchor();
     initRouter();
 }
 
 normalTitle();
 normalBtn();
+normalAnchor();
 
 window.addEventListener('load', init)
  
@@ -29,11 +31,13 @@ smallerSize.addEventListener('click', () => {
 });
 
 export function normalTitle () {
-    console.log("holaaaa")
     window.titles = "normal-color";
 }
 export function normalBtn () {
     window.btns = "blue-btn";
+}
+export function normalAnchor () {
+    window.anchors = "normal-a";
 }
 
 export function topFunction() {

@@ -15,12 +15,27 @@ body {
     top: 0;
     font-size: 2rem;
   }
+
+.normal-a {
+  color: #152C7B;
+  font-weight: bold;
+  text-decoration-line: underline; 
+} 
+.high-contrast-a {
+  color: #f8f523;
+  text-decoration-line: underline; 
+  font-weight: bold;
+}
+.high-contrast-a:hover {
+  color: #fffebd;
+}
 /*   h1, h2, h3, h4 {
     color: #152C7B
   } */
   .normal-color {
     color: #152C7B;
   }
+ 
   .high-contrast-color {
     color: #ffffff;
   }
@@ -157,6 +172,7 @@ margin-top: 2.6rem;
   background-color: #ffffff;
 }
 .friend{
+  margin-top: 15px;
 text-align: center;
 }
 .accessibility-btn {
